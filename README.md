@@ -58,6 +58,8 @@ ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-
 
 - `ATACProc` - ATAC-seq processing pipeline, https://github.com/ay-lab/ATACProc
 
+- `pepatac` - A modular, containerized pipeline for ATAC-seq data processing. https://github.com/databio/pepatac, examples and documentation at http://code.databio.org/PEPATAC/
+
 
 ## Histone-seq
 
