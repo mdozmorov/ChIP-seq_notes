@@ -32,6 +32,8 @@ ChIP-seq peak calling using MAXS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `BAM2WIG` - a flexible tool to generate read coverage profile (WIG file) from a BAM file. http://www.epigenomes.ca/tools-and-software
 
+- `UROPA` - Universal RObustPeak Annotator. http://loosolab.mpi-bn.mpg.de/
+
 ### Motif plots
 
 - `motifStack` - Plot stacked logos for single or multiple DNA, RNA and amino acid sequence, https://bioconductor.org/packages/release/bioc/html/motifStack.html
