@@ -8,9 +8,12 @@ Issues with suggestions and pull requests are welcome!
   * [ChIP-seq pipelines](#chip-seq-pipelines)
   * [Visualization](#visualization)
   * [Motif plots](#motif-plots)
+  * [Misc](#misc)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
 * [Histone-seq](#histone-seq)
+* [Data](#data)
+
 
 ## ChIP-seq
 
@@ -70,6 +73,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 - `RSEG` - ChIP-seq analysis for identifying genomic regions and their boundaries marked by diffusive histone modification markers, such as H3K36me3 and H3K27me3, http://smithlabresearch.org/software/rseg/
 
 
+## Data
+
+- ChIP-Atlas is an integrative and comprehensive database for visualizing and making use of public ChIP-seq data. ChIP-Atlas covers almost all public ChIP-seq data submitted to the SRA (Sequence Read Archives) in NCBI, DDBJ, or ENA, and is based on over 78,000 experiments. Besides "Peak browser" tool, includes "Target Genes", "Colocalization", "Enrichment Analysis" tools. http://chip-atlas.org/, code on GetHub, https://github.com/inutano/chip-atlas
 
 
 
