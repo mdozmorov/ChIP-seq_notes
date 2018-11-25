@@ -7,7 +7,7 @@ Issues with suggestions and pull requests are welcome!
 * [ChIP-seq](#chip-seq)
   * [ChIP-seq pipelines](#chip-seq-pipelines)
   * [Visualization](#visualization)
-  * [Motif plots](#motif-plots)
+  * [Motifs](#motifs)
   * [Misc](#misc)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
@@ -37,11 +37,15 @@ ChIP-seq peak calling using MAXS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `UROPA` - Universal RObustPeak Annotator. http://loosolab.mpi-bn.mpg.de/
 
-### Motif plots
+### Motifs
+
+- `gimmemotifs` - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. https://github.com/vanheeringen-lab/gimmemotifs, and documentation https://gimmemotifs.readthedocs.io
+    - Bruse, Niklas, and Simon J. van Heeringen. “GimmeMotifs: An Analysis Framework for Transcription Factor Motif Analysis,” November 20, 2018. https://doi.org/10.1101/474403.
 
 - `motifStack` - Plot stacked logos for single or multiple DNA, RNA and amino acid sequence, https://bioconductor.org/packages/release/bioc/html/motifStack.html
 
 - `Logolas` - R package for Enrichment Depletion Logos (EDLogos) and String Logos, https://github.com/kkdey/Logolas
+
 
 ### Misc
 
