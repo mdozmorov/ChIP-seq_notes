@@ -74,6 +74,8 @@ ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-
 
 Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb were merged into a single peak. Broad peaks in H3K36me3, H3K27me3 and H3K9me3 were called using the Homer program ‘findPeaks’ with the options ‘-region –size 1000 –minDist 2500’. When Homer runs with these options, the initial sets of peaks were 1 kb wide and peaks within 2.5 kb were merged. 
 
+- `DEScan2` - Differential Enrichment Scan 2 R package, Integrated peak and differential caller, specifically designed for broad epigenomic signals. http://bioconductor.org/packages/release/bioc/html/DEScan2.html
+
 - `RSEG` - ChIP-seq analysis for identifying genomic regions and their boundaries marked by diffusive histone modification markers, such as H3K36me3 and H3K27me3, http://smithlabresearch.org/software/rseg/
 
 
