@@ -82,6 +82,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Data
 
+- `Cistrome DB` - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. http://cistrome.org/db/#/
+    - [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?"
+
 - `ChIP-Atlas` is an integrative and comprehensive database for visualizing and making use of public ChIP-seq data. ChIP-Atlas covers almost all public ChIP-seq data submitted to the SRA (Sequence Read Archives) in NCBI, DDBJ, or ENA, and is based on over 78,000 experiments. Besides "Peak browser" tool, includes "Target Genes", "Colocalization", "Enrichment Analysis" tools. http://chip-atlas.org/, code on GetHub, https://github.com/inutano/chip-atlas
 
 - `ReMap 2018` - database of public and ENCODE human ChIP-seq datasets in BED format, in different coordinate systems, downloadable. http://pedagogix-tagc.univ-mrs.fr/remap/index.php
