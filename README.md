@@ -6,8 +6,10 @@ Issues with suggestions and pull requests are welcome!
 
 * [ChIP-seq](#chip-seq)
   * [ChIP-seq pipelines](#chip-seq-pipelines)
+  * [Peaks](#peaks)
   * [Visualization](#visualization)
   * [Motifs](#motifs)
+  * [Differential peak detection](#differential-peak-detection)
   * [Misc](#misc)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
@@ -31,6 +33,13 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `ChIPLine` - a pipeline for ChIP-seq analysis, https://github.com/ay-lab/ChIPLine
 
+### Peaks
+
+- `mosaics` - This package provides functions for fitting MOSAiCS and MOSAiCS-HMM, a statistical framework to analyze one-sample or two-sample ChIP-seq data of transcription factor binding and histone modification. https://bioconductor.org/packages/release/bioc/html/mosaics.html
+
+- `triform` - finds enriched regions (peaks) in transcription factor ChIP-sequencing data. https://bioconductor.org/packages/release/bioc/html/triform.html
+
+
 ### Visualization
 
 - `ChAsE` - Chromatin Analysis & Exploration Tool. http://chase.cs.univie.ac.at/overview
@@ -47,6 +56,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Motifs
 
+- `rGADEM` - de novo motif discovery, https://bioconductor.org/packages/release/bioc/html/rGADEM.html
+
 - `gimmemotifs` - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. https://github.com/vanheeringen-lab/gimmemotifs, and documentation https://gimmemotifs.readthedocs.io
     - Bruse, Niklas, and Simon J. van Heeringen. “GimmeMotifs: An Analysis Framework for Transcription Factor Motif Analysis,” November 20, 2018. https://doi.org/10.1101/474403.
 
@@ -55,15 +66,15 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 - `Logolas` - R package for Enrichment Depletion Logos (EDLogos) and String Logos, https://github.com/kkdey/Logolas
 
 
-### Misc
+### Differential peak detection
 
 - `csaw` - Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control. https://bioconductor.org/packages/release/bioc/html/csaw.html
 
-- `mosaics` - This package provides functions for fitting MOSAiCS and MOSAiCS-HMM, a statistical framework to analyze one-sample or two-sample ChIP-seq data of transcription factor binding and histone modification. https://bioconductor.org/packages/release/bioc/html/mosaics.html
 
-- `triform` - finds enriched regions (peaks) in transcription factor ChIP-sequencing data. https://bioconductor.org/packages/release/bioc/html/triform.html
 
-- `rGADEM` - de novo motif discovery, https://bioconductor.org/packages/release/bioc/html/rGADEM.html
+### Misc
+
+
 
 
 
