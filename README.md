@@ -20,11 +20,14 @@ Issues with suggestions and pull requests are welcome!
 
 ### ChIP-seq pipelines
 
-ChIP-seq peak calling using MAXS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --verbose 3 --cutoff- analysis --call-summits -q 0.01`
+ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --verbose 3 --cutoff- analysis --call-summits -q 0.01`
 
 - `AQUAS` ChIP-seq processing pipeline - The AQUAS pipeline is based off the ENCODE (phase-3) transcription factor and histone ChIP-seq pipeline specifications, https://github.com/kundajelab/chipseq_pipeline
 
 - `Crunch` - Completely Automated Analysis of ChIP-seq Data, http://crunch.unibas.ch/, https://www.biorxiv.org/content/early/2016/03/09/042903
+
+- `ChiLin` - QC, peak calling, motif analysis for ChIP-seq and DNAse-seq data used by CistromeDb. References to other tools. https://github.com/cfce/chilin
+    - Qin, Qian, Shenglin Mei, Qiu Wu, Hanfei Sun, Lewyn Li, Len Taing, Sujun Chen, et al. “ChiLin: A Comprehensive ChIP-Seq and DNase-Seq Quality Control and Analysis Pipeline.” BMC Bioinformatics 17, no. 1 (October 3, 2016): 404. https://doi.org/10.1186/s12859-016-1274-4.
 
 - `ChIPLine` - a pipeline for ChIP-seq analysis, https://github.com/ay-lab/ChIPLine
 
