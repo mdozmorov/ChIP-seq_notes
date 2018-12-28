@@ -10,6 +10,7 @@ Issues with suggestions and pull requests are welcome!
   * [Visualization](#visualization)
   * [Motifs](#motifs)
   * [Differential peak detection](#differential-peak-detection)
+  * [Interpretation](#interpretation)
   * [Misc](#misc)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
@@ -70,6 +71,13 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `csaw` - Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control. https://bioconductor.org/packages/release/bioc/html/csaw.html
 
+
+### Interpretation
+
+- `Toolkit for Cistrome Data Browser` - online tool to answer questions like:
+    - What factors regulate your gene of interest?
+    - What factors bind in your interval?
+    - What factors have a significant binding overlap with your peak set?
 
 
 ### Misc
