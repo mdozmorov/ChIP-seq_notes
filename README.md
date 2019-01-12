@@ -86,7 +86,7 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Misc
 
-
+- mm10 blacklist - http://usevision.org/data/blacklist/blacklist.full.bed
 
 
 
