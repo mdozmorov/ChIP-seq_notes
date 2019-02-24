@@ -89,6 +89,12 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
     - What factors bind in your interval?
     - What factors have a significant binding overlap with your peak set?
 
+- Chongzhi Zhang software page, http://faculty.virginia.edu/zanglab/software.htm
+    - `BART` (Binding Analysis for Regulation of Transcription), a bioinformatics tool for predicting functional transcription factors (TFs) that bind at genomic cis-regulatory regions to regulate gene expression in the human or mouse genomes, given a query gene set or a ChIP-seq dataset as input. http://bartweb.uvasomrc.io/
+    - `MARGE` (Model-based Analysis of Regulation of Gene Expression), a comprehensive computational method for inference of cis-regulation of gene expression leveraging public H3K27ac genomic profiles in human or mouse. http://cistrome.org/MARGE/
+    - `MANCIE` (Matrix Analysis and Normalization by Concordant Information Enhancement), a computational method for high-dimensional genomic data integration. https://cran.r-project.org/web/packages/MANCIE/index.html
+    - `SICER` (Spatial-clustering Identification of ChIP-Enriched Regions), a ChIP-Seq data analysis method. https://home.gwu.edu/~wpeng/Software.htm
+
 
 ### Misc
 
