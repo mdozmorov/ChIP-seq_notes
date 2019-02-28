@@ -76,6 +76,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `Logolas` - R package for Enrichment Depletion Logos (EDLogos) and String Logos, https://github.com/kkdey/Logolas
 
+- `homerkit` - Read HOMER motif analysis output in R. https://github.com/slowkow/homerkit
+
 
 ### Differential peak detection
 
