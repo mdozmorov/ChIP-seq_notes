@@ -23,6 +23,13 @@ Issues with suggestions and pull requests are welcome!
 
 ### ChIP-seq pipelines
 
+- Regulatory Genomics Toolbox: Python library and set of tools for the integrative analysis of high throughput regulatory genomics data. http://www.regulatory-genomics.org, https://github.com/CostaLab/reg-gen
+    - HINT (Hmm-based IdeNtification of Transcription factor footprints) is a framework for detection of DNA footprints from DNase-Seq and histone modification ChIP-Seq data.
+    - Motif Analysis tools allows the search of motifs with binding sites enriched in particular genomic regions
+    - ODIN and THOR are HMM-based approaches to detect and analyse differential peaks in pairs of ChIP-seq data. 
+    - RGT-Viz is a collection of tests for association analysis and tools for visualizaiton of genomic data such as files in BED and BAM format
+    - Triplex Domain Finder (TDF) statistically characterizes the triple helix potential of RNA and DNA regions.
+
 - ENCODE3 pipeline v1 specifications, https://docs.google.com/document/d/1lG_Rd7fnYgRpSIqrIfuVlAz2dW1VaSQThzk836Db99c/edit#heading=h.9ecc41kilcvq
 
 ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --verbose 3 --cutoff- analysis --call-summits -q 0.01`
