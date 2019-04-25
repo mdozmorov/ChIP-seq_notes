@@ -90,6 +90,7 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `csaw` - Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control. https://bioconductor.org/packages/release/bioc/html/csaw.html
 
+- `DiffBind` - Differential Binding Analysis of ChIP-Seq Peak Data. https://bioconductor.org/packages/release/bioc/html/DiffBind.html
 
 ### Interpretation
 
