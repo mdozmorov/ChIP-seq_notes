@@ -60,6 +60,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Visualization
 
+- Visualizations of ChIP-Seq data using Heatmaps, https://www.biostars.org/p/180314/
+
 - `ChAsE` - Chromatin Analysis & Exploration Tool. http://chase.cs.univie.ac.at/overview
 
 - `ChromHeatMap` - Heat map plotting by genome coordinate. https://bioconductor.org/packages/release/bioc/html/ChromHeatMap.html
