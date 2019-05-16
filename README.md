@@ -55,6 +55,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `ROSE` - rank-ordering of super-enhancers. https://bitbucket.org/young_computation/rose
 
+- `RSEG` - ChIP-seq broad domain analysis. http://smithlabresearch.org/software/rseg/
+    - Song, Qiang, and Andrew D Smith. “Identifying Dispersed Epigenomic Domains from ChIP-Seq Data.” Bioinformatics 27, no. 6 (2011): 870–871.
+
 - `triform` - finds enriched regions (peaks) in transcription factor ChIP-sequencing data. https://bioconductor.org/packages/release/bioc/html/triform.html
 
 
