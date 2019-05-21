@@ -124,6 +124,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - ATAC-seq peak-calling and differential analysis pipeline. https://github.com/nf-core/atacseq, http://nf-co.re
 
+- Dimensionality Reduction for scATAC-seq Data, http://andrewjohnhill.com/images/posts/2019-5-6-dimensionality-reduction-for-scatac-data/analysis.html
+
 ### ATAC-seq pipelines
 
 ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
