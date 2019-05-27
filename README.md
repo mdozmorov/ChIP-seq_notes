@@ -159,6 +159,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 - `ReMap 2018` - database of public and ENCODE human ChIP-seq datasets in BED format, in different coordinate systems, downloadable. http://pedagogix-tagc.univ-mrs.fr/remap/index.php
 
+- `UniBind` database of robustly predicted TF binding sites. Using ChIP-seq data from 1983 studies, PWMs, binding energy, and many other parameters. HOT/XOT regions are likely artifacts, not TFBSs. Downloadable (hg38) database.  https://unibind.uio.no/
+    - Gheorghe, Marius, Geir Kjetil Sandve, Aziz Khan, Jeanne Chèneby, Benoit Ballester, and Anthony Mathelier. “A Map of Direct TF–DNA Interactions in the Human Genome.” Nucleic Acids Research 47, no. 4 (February 28, 2019): e21–e21. https://doi.org/10.1093/nar/gky1210.
+
 ### Motif DBs
 
 - `HOCOMOCO` - TF binding models from ChIP-seq data. http://hocomoco11.autosome.ru/
