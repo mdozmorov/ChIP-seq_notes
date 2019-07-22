@@ -12,6 +12,7 @@ Issues with suggestions and pull requests are welcome!
   * [Differential peak detection](#differential-peak-detection)
   * [Interpretation](#interpretation)
   * [Misc](#misc)
+* [DNAse-seq](#dnase-seq)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
 * [Histone-seq](#histone-seq)
@@ -121,6 +122,11 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - mm10 blacklist - http://usevision.org/data/blacklist/blacklist.full.bed
 
+
+## DNAse-seq
+
+- DNAse-seq analysis guide. Tools for QC, peak calling, analysis, footprint detection, motif analysis, visualization, all-in-one tools ([Table 2](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bby057/5053117#118754375))
+    - Liu, Yongjing, Liangyu Fu, Kerstin Kaufmann, Dijun Chen, and Ming Chen. “A Practical Guide for DNase-Seq Data Analysis: From Data Management to Common Applications.” Briefings in Bioinformatics, July 12, 2018. https://doi.org/10.1093/bib/bby057.
 
 
 ## ATAC-seq
