@@ -141,6 +141,9 @@ ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-
 
 - `ATACProc` - ATAC-seq processing pipeline, https://github.com/ay-lab/ATACProc
 
+- `HMMRATAC` - hidden Markov model for ATAC-seq to identify open chromatin regions. Parametric modeling of nucleosome-free regions and three nucleosomal reatures (mono-, di-, and tri-nucleosomes). First, train on 1000 auto-selected regions, then predict. Tested on "active promoters" and "strong enhancers" chromatin states (positive examples), and "heterochromatin" (negative examples). Compared with MACS2, F-seq. https://github.com/LiuLabUB/HMMRATAC
+    - Tarbell, Evan D, and Tao Liu. “HMMRATAC: A Hidden Markov ModeleR for ATAC-Seq.” Nucleic Acids Research, June 14, 2019, gkz533. https://doi.org/10.1093/nar/gkz533.
+
 - `pepatac` - A modular, containerized pipeline for ATAC-seq data processing. https://github.com/databio/pepatac, examples and documentation at http://code.databio.org/PEPATAC/
 
 
