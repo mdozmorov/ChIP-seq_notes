@@ -154,6 +154,10 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 - `DEScan2` - broad peak (histone, ATAC, DNAse) analysis (peak caller, peak filtering and alignment across replicates, creation of a count matrix). Peak caller uses a moving window and calculated a Poisson likelihood of a peak as compared to a region outside the window. https://bioconductor.org/packages/release/bioc/html/DEScan2.html
     - Righelli, Dario, John Koberstein, Nancy Zhang, Claudia Angelini, Lucia Peixoto, and Davide Risso. “Differential Enriched Scan 2 (DEScan2): A Fast Pipeline for Broad Peak Analysis.” PeerJ Preprints, 2018.
 
+- `HMCan` and `HMCan-diff` - histone ChIP-seq peak caller (and differential) that accounts for CNV, also for CG bias. Hidden Markov Model to detect peak signal. Control-FREEC to detect CNV in ChIP-seq data. Outperforms others, CCAT second best. https://www.cbrc.kaust.edu.sa/hmcan/
+    - Ashoor, Haitham, Aurélie Hérault, Aurélie Kamoun, François Radvanyi, Vladimir B. Bajic, Emmanuel Barillot, and Valentina Boeva. “HMCan: A Method for Detecting Chromatin Modifications in Cancer Samples Using ChIP-Seq Data.” Bioinformatics (Oxford, England) 29, no. 23 (December 1, 2013): 2979–86. https://doi.org/10.1093/bioinformatics/btt524.
+    - Ashoor, Haitham, Caroline Louis-Brennetot, Isabelle Janoueix-Lerosey, Vladimir B. Bajic, and Valentina Boeva. “HMCan-Diff: A Method to Detect Changes in Histone Modifications in Cells with Different Genetic Characteristics.” Nucleic Acids Research 45, no. 8 (05 2017): e58. https://doi.org/10.1093/nar/gkw1319.
+
 - `RSEG` - ChIP-seq analysis for identifying genomic regions and their boundaries marked by diffusive histone modification markers, such as H3K36me3 and H3K27me3, http://smithlabresearch.org/software/rseg/
 
 
