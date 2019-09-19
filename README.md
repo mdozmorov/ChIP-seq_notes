@@ -6,6 +6,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 
 * [ChIP-seq](#chip-seq)
   * [ChIP-seq pipelines](#chip-seq-pipelines)
+  * [Quality control](#quality-control)
   * [Peaks](#peaks)
   * [Visualization](#visualization)
   * [Motifs](#motifs)
@@ -50,6 +51,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 - `S3norm` - Chip-seq normalization to sequencing depth AND signal-to-noise ratio to the common reference. Negative Binomial for modeling background, convert counts to -log10(p-values), use monotonic nonlinear model to match the means of the common peaks and backgrounds in two datasets. https://github.com/guanjue/S3norm
     - Xiang, Guanjue, Cheryl Keller, Belinda Giardine, Lin An, Ross Hardison, and Yu Zhang. “S3norm: Simultaneous Normalization of Sequencing Depth and Signal-to-Noise Ratio in Epigenomic Data.” BioRxiv, January 1, 2018, 506634. https://doi.org/10.1101/506634.
 
+### Quality control
+
+- `phantompeakqualtools` - This package computes informative enrichment and quality measures for ChIP-seq/DNase-seq/FAIRE-seq/MNase-seq data. It can also be used to obtain robust estimates of the predominant fragment length or characteristic tag shift values in these assays. https://github.com/kundajelab/phantompeakqualtools
 
 ### Peaks
 
