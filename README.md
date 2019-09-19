@@ -104,6 +104,10 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `DiffBind` - Differential Binding Analysis of ChIP-Seq Peak Data. https://bioconductor.org/packages/release/bioc/html/DiffBind.html
 
+### Enrichment
+
+- UniBind Enrichment Analysis, also differential enrichment. Input - BED file in hg38 version. [LOLA](https://bioconductor.org/packages/release/bioc/html/LOLA.html) as an enrichment and database engine.
+
 ### Interpretation
 
 - `Toolkit for Cistrome Data Browser` - online tool to answer questions like:
