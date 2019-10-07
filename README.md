@@ -90,6 +90,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Motifs
 
+- `LISA` - epigenetic Landscape In silico Subtraction analysis, enriched TFs and chromatin regulators in a list of genes. http://lisa.cistrome.org
+
 - `AME-MEME` - enrichment of known user-provided motifs in a sequence, http://meme-suite.org/doc/ame.html, http://meme-suite.org/tools/ame
 
 - `rGADEM` - de novo motif discovery, https://bioconductor.org/packages/release/bioc/html/rGADEM.html
