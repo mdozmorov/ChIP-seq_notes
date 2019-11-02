@@ -149,6 +149,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### ATAC-seq pipelines
 
+- `scATAC-pro` - A comprehensive tool for processing, analyzing and visulizing single cell chromatin accessibility sequencing data. https://github.com/wbaopaul/scATAC-pro
+
 ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
 
 - `ATACProc` - ATAC-seq processing pipeline, https://github.com/ay-lab/ATACProc
