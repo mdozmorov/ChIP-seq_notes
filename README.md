@@ -132,6 +132,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Misc
 
+- hg38 blacklist - http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg38-human/hg38.blacklist.bed.gz
+
 - mm10 blacklist - http://usevision.org/data/blacklist/blacklist.full.bed
 
 
