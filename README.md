@@ -12,7 +12,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [Motifs](#motifs)
   * [Differential peak detection](#differential-peak-detection)
   * [Interpretation](#interpretation)
-  * [Misc](#misc)
+  * [Blacklisted](#blacklisted)
 * [DNAse-seq](#dnase-seq)
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
@@ -130,7 +130,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
     - `SICER` (Spatial-clustering Identification of ChIP-Enriched Regions), a ChIP-Seq data analysis method. https://home.gwu.edu/~wpeng/Software.htm
 
 
-### Misc
+### Blacklisted
+
+- hg19 blacklist - http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeMapability/wgEncodeDukeMapabilityRegionsExcludable.bed.gz
 
 - hg38 blacklist - http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg38-human/hg38.blacklist.bed.gz
 
