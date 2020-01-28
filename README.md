@@ -9,7 +9,7 @@ These notes are not intended to be comprehensive. They include notes about metho
   * [Quality control](#quality-control)
   * [Peaks](#peaks)
   * [Visualization](#visualization)
-  * [Motifs](#motifs)
+  * [Motif search](#motif-search)
   * [Differential peak detection](#differential-peak-detection)
   * [Interpretation](#interpretation)
   * [Blacklisted](#blacklisted)
@@ -88,7 +88,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
     - Cuscó, Pol, and Guillaume J. Filion. “Zerone: A ChIP-Seq Discretizer for Multiple Replicates with Built-in Quality Control.” Bioinformatics 32, no. 19 (October 1, 2016): 2896–2902. https://doi.org/10.1093/bioinformatics/btw336.
 
 
-### Motifs
+### Motif search
+
+- `marge` - API for HOMER in R for Genomic Analysis using Tidy Conventions https://robertamezquita.github.io/marge/, https://github.com/robertamezquita/marge
 
 - `LISA` - epigenetic Landscape In silico Subtraction analysis, enriched TFs and chromatin regulators in a list of genes. http://lisa.cistrome.org
 
