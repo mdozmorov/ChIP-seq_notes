@@ -185,6 +185,8 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Data
 
+- `hTFtarget` - database of TF-gene target regulations from >7K human ChIP-seq experiments. http://bioinfo.life.hust.edu.cn/hTFtarget/
+
 - `Cistrome DB` - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. http://cistrome.org/db/#/
     - [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?"
 
