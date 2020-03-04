@@ -149,6 +149,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ## ATAC-seq
 
+- Awesome ATAC-seq analysis by Nathan Sheffield, https://github.com/databio/awesome-atac-analysis
+
 - `TOBIAS` - Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal. https://github.com/loosolab/TOBIAS
 
 - ATAC-seq peak-calling and differential analysis pipeline. https://github.com/nf-core/atacseq, http://nf-co.re
