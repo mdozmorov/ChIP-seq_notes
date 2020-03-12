@@ -17,6 +17,7 @@ These notes are not intended to be comprehensive. They include notes about metho
 * [ATAC-seq](#atac-seq)
   * [ATAC-seq pipelines](#atac-seq-pipelines)
 * [Histone-seq](#histone-seq)
+* [Misc](#misc)
 * [Data](#data)
   * [Motif DBs](#motif-dbs)
 
@@ -184,6 +185,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 - `RSEG` - ChIP-seq analysis for identifying genomic regions and their boundaries marked by diffusive histone modification markers, such as H3K36me3 and H3K27me3, http://smithlabresearch.org/software/rseg/
 
+## Misc
+
+- `covtobed` - a tool to generate BED coverage tracks from BAM files. https://github.com/telatin/covtobed
 
 ## Data
 
