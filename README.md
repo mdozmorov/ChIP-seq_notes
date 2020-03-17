@@ -191,6 +191,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Data
 
+- `Catchitt` - method for predicting TFBSs, meader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation http://jstacs.de/index.php/Catchitt, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions https://www.synapse.org/#!Synapse:syn11526239/wiki/497341
+    - Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y.
+
 - `hTFtarget` - database of TF-gene target regulations from >7K human ChIP-seq experiments. http://bioinfo.life.hust.edu.cn/hTFtarget/
 
 - `Cistrome DB` - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. http://cistrome.org/db/#/
