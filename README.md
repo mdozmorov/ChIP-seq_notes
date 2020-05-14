@@ -147,6 +147,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - mm10 blacklist - http://usevision.org/data/blacklist/blacklist.full.bed
 
+- [UCSC unusual regions on assembly structure](http://genome.ucsc.edu/cgi-bin/hgTables?db=hg19&hgta_group=map&hgta_track=problematic&hgta_table=comments&hgta_doSchema=describe+table+schema), [Tweet](https://twitter.com/GenomeBrowser/status/1260693767125778434?s=20)
+
 
 ## DNAse-seq
 
