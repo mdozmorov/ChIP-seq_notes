@@ -1,29 +1,38 @@
 # Notes on ChIP-seq and other-seq-related tools
 
-These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
+ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
 
-* [ChIP-seq](#chip-seq)
-  * [ChIP-seq pipelines](#chip-seq-pipelines)
-    * [CUT&RUN](#cut-run)
-  * [Quality control](#quality-control)
-  * [Peaks](#peaks)
-  * [Visualization](#visualization)
-  * [Motif search](#motif-search)
-  * [Differential peak detection](#differential-peak-detection)
-  * [Interpretation](#interpretation)
-  * [Blacklisted](#blacklisted)
-* [DNAse-seq](#dnase-seq)
-* [ATAC-seq](#atac-seq)
-  * [ATAC-seq pipelines](#atac-seq-pipelines)
-* [Histone-seq](#histone-seq)
-* [Misc](#misc)
-* [Data](#data)
-  * [Motif DBs](#motif-dbs)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [ChIP-seq](#chip-seq)
+  - [ChIP-seq pipelines](#chip-seq-pipelines)
+    - [CUT&RUN](#cutrun)
+  - [Quality control](#quality-control)
+  - [Peaks](#peaks)
+  - [Visualization](#visualization)
+  - [Motif search](#motif-search)
+  - [Differential peak detection](#differential-peak-detection)
+  - [Enrichment](#enrichment)
+  - [Interpretation](#interpretation)
+  - [Blacklisted](#blacklisted)
+- [DNAse-seq](#dnase-seq)
+- [ATAC-seq](#atac-seq)
+  - [ATAC-seq pipelines](#atac-seq-pipelines)
+- [Histone-seq](#histone-seq)
+- [Misc](#misc)
+- [Data](#data)
+  - [Motif DBs](#motif-dbs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## ChIP-seq
+
+- [ChIP-seq-analysis](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq analysis notes from Ming Tang
+
 
 ### ChIP-seq pipelines
 
@@ -178,6 +187,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 - Dimensionality Reduction for scATAC-seq Data, http://andrewjohnhill.com/images/posts/2019-5-6-dimensionality-reduction-for-scatac-data/analysis.html
 
 ### ATAC-seq pipelines
+
+- [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline) - ATAC-seq and DNase-seq processing pipeline by Anshul Kundaje
 
 - `scATAC-pro` - A comprehensive tool for processing, analyzing and visulizing single cell chromatin accessibility sequencing data. https://github.com/wbaopaul/scATAC-pro
 
