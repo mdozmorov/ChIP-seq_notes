@@ -158,6 +158,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Blacklisted
 
+- [Repetitive centromeric, telomeric and satellite regions known to have low sequencing confidence - blacklisted regions defined by the ENCODE project](http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/wgEncodeHg19ConsensusSignalArtifactRegions.bed.gz) - from Upton et al., “Epigenomic Profiling of Neuroblastoma Cell Lines.”
+
 - [Manually annotated GRCh38 blacklisted regions](https://www.encodeproject.org/files/ENCFF356LFX/) on ENCODE data portal. [Tweet by Anshul Kundaje](https://twitter.com/anshulkundaje/status/1263546023151992832?s=20)
 
 - Blacklisted regions, how they were created. https://github.com/Boyle-Lab/Blacklist/, https://www.encodeproject.org/annotations/ENCSR636HFF/
@@ -179,6 +181,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 
 ## ATAC-seq
+
+- [Benchmarking ATAC-seq peak calling](https://bigmonty12.github.io/peak-calling-benchmark) by Austin Montgomery
 
 - Awesome ATAC-seq analysis by Nathan Sheffield, https://github.com/databio/awesome-atac-analysis
 
