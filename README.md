@@ -119,8 +119,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 - `rGADEM` - de novo motif discovery, https://bioconductor.org/packages/release/bioc/html/rGADEM.html
 
-- `gimmemotifs` - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. https://github.com/vanheeringen-lab/gimmemotifs, and documentation https://gimmemotifs.readthedocs.io
-    - Bruse, Niklas, and Simon J. van Heeringen. “GimmeMotifs: An Analysis Framework for Transcription Factor Motif Analysis,” November 20, 2018. https://doi.org/10.1101/474403.
+- [gimmemotifs](https://github.com/vanheeringen-lab/gimmemotifs) - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. [Documentation](https://gimmemotifs.readthedocs.io). [Tweet with updates](https://twitter.com/svheeringen/status/1313778158999666688?s=20)
+    - Bruse, Niklas, and Simon J. van Heeringen. “[GimmeMotifs: An Analysis Framework for Transcription Factor Motif Analysis](https://doi.org/10.1101/474403),” November 20, 2018
 
 - `DECOD` - Differential motif finder. k-mer-based. http://gene.ml.cmu.edu/DECOD/
     - Huggins, Peter, Shan Zhong, Idit Shiff, Rachel Beckerman, Oleg Laptenko, Carol Prives, Marcel H. Schulz, Itamar Simon, and Ziv Bar-Joseph. “DECOD: Fast and Accurate Discriminative DNA Motif Finding.” Bioinformatics 27, no. 17 (September 1, 2011): 2361–67. https://doi.org/10.1093/bioinformatics/btr412.
