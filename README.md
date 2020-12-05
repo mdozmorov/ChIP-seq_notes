@@ -111,6 +111,8 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Motif search
 
+- [Non-redundant TF motif matches genome-wide](https://www.vierstra.org/resources/motif_clustering#downloads) - Clustering of 2179 motif models. hg38/mm10 BED files download with coordinates
+
 - `marge` - API for HOMER in R for Genomic Analysis using Tidy Conventions https://robertamezquita.github.io/marge/, https://github.com/robertamezquita/marge
 
 - `LISA` - epigenetic Landscape In silico Subtraction analysis, enriched TFs and chromatin regulators in a list of genes. http://lisa.cistrome.org
