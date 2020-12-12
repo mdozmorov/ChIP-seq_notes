@@ -69,7 +69,7 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 - CUT&RUN technology, chromatin profiling strategy, antibody-targeted controlled cleavage by micrococcal nuclease. Cost-efficient, low input requirements, easier.
     - Skene, Peter J, and Steven Henikoff. “[An Efficient Targeted Nuclease Strategy for High-Resolution Mapping of DNA Binding Sites](https://elifesciences.org/articles/21856).” Genes and Chromosomes
 
-- [CUT&RUNTools](https://bitbucket.org/qzhudfci/cutruntools/src/master/) - a pipeline to fully process CUT&RUN data and identify protein binding and genomic footprinting from antibody-targeted primary cleavage data. Implemented in R, Python, Bach, runs under the SLURM job submission. At the core, creates a cut matrix of from enzyme cleavage data. Compared with Atactk and Centipede. https://bitbucket.org/qzhudfci/cutruntools/src/master/
+- [CUT&RUNTools](https://bitbucket.org/qzhudfci/cutruntools/src/master/) - a pipeline to fully process CUT&RUN data and identify protein binding and genomic footprinting from antibody-targeted primary cleavage data. Implemented in R, Python, Bach, runs under the SLURM job submission. At the core, creates a cut matrix of from enzyme cleavage data. Compared with Atactk and Centipede. (Tested, didn't work)
     - Zhu, Qian. “[CUT&RUNTools: A Flexible Pipeline for CUT&RUN Processing and Footprint Analysis](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1802-4),” 2019, 12. 
 
 ### Quality control
