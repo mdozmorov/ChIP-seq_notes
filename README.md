@@ -66,8 +66,10 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 #### CUT&RUN
 
-- CUT&TAG technology Cleavage Under Target and Tagmentation. Compared with CUT&RUN that uses MNase, it uses Tn5 transposase, reactions performed within intact cells, performed on a solid support (tethered). Better suited for low cell numbers, low cost. Tested on H3K27me3 and RNAPII profiling in K562, compared with the same CUT&RUN data. Sharper peaks, nearly 20X more that ChIP-seq. Compared with ATAC-seq in K562, H3K4me2, better signal-to-noise ratio, even at low sequencing depth. Tested using NPAT and CTCF transcription factors. Methods - alignment (bowtie2) and peak calling (MACS2) settings.
 - [CUT&Tag Data Processing and Analysis Tutorial](https://yezhengstat.github.io/CUTTag_tutorial/)
+- [Methods with detailed commands of CUT&RUN data analysis](https://www.biorxiv.org/content/10.1101/2020.08.31.272856v1.full-text) - from Divya S. Vinjamur et al. "[ZNF410 represses fetal globin by devoted control of CHD4/NuRD](https://doi.org/10.1101/2020.08.31.272856)," bioRxiv, August 31, 2020.
+
+- CUT&TAG technology Cleavage Under Target and Tagmentation. Compared with CUT&RUN that uses MNase, it uses Tn5 transposase, reactions performed within intact cells, performed on a solid support (tethered). Better suited for low cell numbers, low cost. Tested on H3K27me3 and RNAPII profiling in K562, compared with the same CUT&RUN data. Sharper peaks, nearly 20X more that ChIP-seq. Compared with ATAC-seq in K562, H3K4me2, better signal-to-noise ratio, even at low sequencing depth. Tested using NPAT and CTCF transcription factors. Methods - alignment (bowtie2) and peak calling (MACS2) settings.
     - Kaya-Okur, Hatice S., Steven J. Wu, Christine A. Codomo, Erica S. Pledger, Terri D. Bryson, Jorja G. Henikoff, Kami Ahmad, and Steven Henikoff. “[CUT&Tag for Efficient Epigenomic Profiling of Small Samples and Single Cells](https://doi.org/10.1038/s41467-019-09982-5).” Nature Communications 10, no. 1 (December 2019)
 
 - CUT&RUN technology, chromatin profiling strategy, antibody-targeted controlled cleavage by micrococcal nuclease. Cost-efficient, low input requirements, easier.
