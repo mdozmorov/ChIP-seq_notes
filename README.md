@@ -73,6 +73,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 - CUT&RUN technology, chromatin profiling strategy, antibody-targeted controlled cleavage by micrococcal nuclease. Cost-efficient, low input requirements, easier.
     - Skene, Peter J, and Steven Henikoff. “[An Efficient Targeted Nuclease Strategy for High-Resolution Mapping of DNA Binding Sites](https://elifesciences.org/articles/21856).” Genes and Chromosomes
 
+- [SEARC](https://seacr.fredhutch.org/) (Sparse Enrichment Analysis for CUT&RUN) peak caller for CUT&RUN data. Data-driven, peaks with respect to global background or IgG control. Compared to MACS2 and HOMER, more precise and maintains true positive rate at low read depth. Better call wide peaks. Input - bedGraph, output - BED. Command line and [web server](https://seacr.fredhutch.org/)
+    - Meers, MP, Tenenbaum, D and Henikoff S (2019). "[Peak calling by sparse enrichment analysis for CUT&RUN chromatin profiling](https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-019-0287-4)". Epigenetics & Chromatin 2019 12:42.
+
 - [CUT&RUNTools](https://bitbucket.org/qzhudfci/cutruntools/src/master/) - a pipeline to fully process CUT&RUN data and identify protein binding and genomic footprinting from antibody-targeted primary cleavage data. Implemented in R, Python, Bach, runs under the SLURM job submission. At the core, creates a cut matrix of from enzyme cleavage data. Compared with Atactk and Centipede. (Tested, didn't work)
     - Zhu, Qian. “[CUT&RUNTools: A Flexible Pipeline for CUT&RUN Processing and Footprint Analysis](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1802-4),” 2019, 12. 
 
