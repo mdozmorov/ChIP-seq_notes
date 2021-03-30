@@ -145,6 +145,9 @@ ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --ve
 
 ### Differential peak detection
 
+- [normR](https://bioconductor.org/packages/normr/) - a Bioconductor R package, data-driven normalization and difference calling approach for ChIP-seq data. Models ChIP- and control read counts by binomial mixture model. One component models the background, the other models the signal. Can work without control.  
+    - Helmuth, Johannes, et al. "[normR: Regime enrichment calling for ChIP-seq data](https://doi.org/10.1101/082263)." BioRxiv (2016)
+
 - `csaw` - Detection of differentially bound regions in ChIP-seq data with sliding windows, with methods for normalization and proper FDR control. https://bioconductor.org/packages/release/bioc/html/csaw.html
 
 - `DiffBind` - Differential Binding Analysis of ChIP-Seq Peak Data. https://bioconductor.org/packages/release/bioc/html/DiffBind.html
