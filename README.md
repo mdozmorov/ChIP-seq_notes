@@ -221,6 +221,9 @@ ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-
 
 - `ATACProc` - ATAC-seq processing pipeline, https://github.com/ay-lab/ATACProc
 
+- [HINT-ATAC](http://www.regulatory-genomics.org/hint/introduction/) - a footprinting method considering ATAC-seq protocol biases. Uses a position dependency model (PDM) to learn the cleavage preferences (Methods). Compared against three footprinting methods, DNase2TF, PIQ, Wellington. PDMs are crucial for correction of cleavage bias for ATAC-seq for all methods. Also improves correction for DNAse-seq data. Comparison of protocols, Omni-ATAC (best performance), Fast-ATAC. Part of [RGT, Regulatory Genomics Toolbox](https://github.com/CostaLab/reg-gen). [Tutorial](https://www.regulatory-genomics.org/hint/tutorial-differential-footprints-on-scatac-seq/)
+    - Li, Zhijian, Marcel H. Schulz, Thomas Look, Matthias Begemann, Martin Zenke, and Ivan G. Costa. “[Identification of Transcription Factor Binding Sites Using ATAC-Seq](https://doi.org/10.1186/s13059-019-1642-2).” Genome Biology, (December 2019)
+
 - `HMMRATAC` - hidden Markov model for ATAC-seq to identify open chromatin regions. Parametric modeling of nucleosome-free regions and three nucleosomal reatures (mono-, di-, and tri-nucleosomes). First, train on 1000 auto-selected regions, then predict. Tested on "active promoters" and "strong enhancers" chromatin states (positive examples), and "heterochromatin" (negative examples). Compared with MACS2, F-seq. https://github.com/LiuLabUB/HMMRATAC
     - Tarbell, Evan D, and Tao Liu. “HMMRATAC: A Hidden Markov ModeleR for ATAC-Seq.” Nucleic Acids Research, June 14, 2019, gkz533. https://doi.org/10.1093/nar/gkz533.
 
