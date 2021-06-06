@@ -25,6 +25,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [ATAC-seq](#atac-seq)
   - [ATAC-seq pipelines](#atac-seq-pipelines)
 - [Histone-seq](#histone-seq)
+  - [Broad peak analysis](#broad-peak-analysis)
 - [Misc](#misc)
 - [Data](#data)
   - [Motif DBs](#motif-dbs)
@@ -242,6 +243,10 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
     - Ashoor, Haitham, Caroline Louis-Brennetot, Isabelle Janoueix-Lerosey, Vladimir B. Bajic, and Valentina Boeva. “HMCan-Diff: A Method to Detect Changes in Histone Modifications in Cells with Different Genetic Characteristics.” Nucleic Acids Research 45, no. 8 (05 2017): e58. https://doi.org/10.1093/nar/gkw1319.
 
 - `RSEG` - ChIP-seq analysis for identifying genomic regions and their boundaries marked by diffusive histone modification markers, such as H3K36me3 and H3K27me3, http://smithlabresearch.org/software/rseg/
+
+### Broad peak analysis
+
+- [epic2](https://github.com/biocore-ntnu/epic2) - an ultraperformant reimplementation of SICER. It focuses on speed, low memory overhead and ease of use.
 
 ## Misc
 
