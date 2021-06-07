@@ -247,6 +247,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 ### Broad peak analysis
 
 - [epic2](https://github.com/biocore-ntnu/epic2) - an ultraperformant reimplementation of SICER. It focuses on speed, low memory overhead and ease of use.
+    - Stovner, Endre Bakken, and Pål Sætrom. "[epic2 efficiently finds diffuse domains in ChIP-seq data](https://doi.org/10.1093/bioinformatics/btz232)." Bioinformatics, (2019)
+
+- [DEScan2](https://bioconductor.org/packages/DEScan2/) - Integrated peak and differential caller, specifically designed for broad epigenomic signals, R package.
 
 ## Misc
 
