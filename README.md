@@ -48,7 +48,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - ENCODE3 pipeline v1 specifications, https://docs.google.com/document/d/1lG_Rd7fnYgRpSIqrIfuVlAz2dW1VaSQThzk836Db99c/edit#heading=h.9ecc41kilcvq
 
-ChIP-seq peak calling using MACS2: `macs2 callpeak -f BAMPE -g hs -B --SPMR --verbose 3 --cutoff- analysis --call-summits -q 0.01`
+- [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. 
+    - Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford Meyer, Tao Liu, et al. “[Fast Alignment and Preprocessing of Chromatin Profiles with Chromap](https://doi.org/10.1101/2021.06.18.448995).” Preprint. Bioinformatics, June 18, 2021. 
 
 - `AQUAS` ChIP-seq processing pipeline - The AQUAS pipeline is based off the ENCODE (phase-3) transcription factor and histone ChIP-seq pipeline specifications, https://github.com/kundajelab/chipseq_pipeline
 
