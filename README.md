@@ -258,6 +258,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Data
 
+- [ReMap](https://remap.univ-amu.fr/) is an integrative analysis of Homo sapiens and Arabidopsis thaliana transcriptional regulators from DNA-binding experiments such as ChIP-seq, ChIP-exo, DAP-seq from public sources (GEO, ENCODE, ENA). Human hg38 and Arabidopsis TAOR10. All peaks, non-redundant peaks, cis-Regulatory Modules. [Download](https://remap.univ-amu.fr/download_page) genomic coordinates.
+    - Chèneby, Jeanne, Zacharie Ménétrier, Martin Mestdagh, Thomas Rosnet, Allyssa Douida, Wassim Rhalloussi, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “[ReMap 2020: A Database of Regulatory Regions from an Integrative Analysis of Human and Arabidopsis DNA-Binding Sequencing Experiments](https://doi.org/10.1093/nar/gkz945).” Nucleic Acids Research, October 29, 2019
+
 - `Catchitt` - method for predicting TFBSs, meader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation http://jstacs.de/index.php/Catchitt, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions https://www.synapse.org/#!Synapse:syn11526239/wiki/497341
     - Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y.
 
