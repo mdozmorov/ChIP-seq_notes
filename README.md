@@ -276,8 +276,6 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 - `RAEdb` - enhancer database. Enhancers identified from STARR-seq and MPRA studies. Epromoters - promoters containing enhancers. Human (hg38)/mouse (mm10) data, select cell lines. BED/FASTQ download. Links to EnhancerAtlas, VISTA, SuperEnhancer databases. http://www.computationalbiology.cn/RAEdb/index.php
     - Cai, Zena, Ya Cui, Zhiying Tan, Gaihua Zhang, Zhongyang Tan, Xinlei Zhang, and Yousong Peng. “RAEdb: A Database of Enhancers Identified by High-Throughput Reporter Assays.” Database: The Journal of Biological Databases and Curation 2019 (January 1, 2019). https://doi.org/10.1093/database/bay140.
 
-- `ReMap 2018` - database of public and ENCODE human ChIP-seq datasets in BED format, in different coordinate systems, downloadable. http://pedagogix-tagc.univ-mrs.fr/remap/index.php
-
 - `UniBind` database of robustly predicted TF binding sites. Using ChIP-seq data from 1983 studies, PWMs, binding energy, and many other parameters. HOT/XOT regions are likely artifacts, not TFBSs. Downloadable (hg38) database.  https://unibind.uio.no/
     - Gheorghe, Marius, Geir Kjetil Sandve, Aziz Khan, Jeanne Chèneby, Benoit Ballester, and Anthony Mathelier. “A Map of Direct TF–DNA Interactions in the Human Genome.” Nucleic Acids Research 47, no. 4 (February 28, 2019): e21–e21. https://doi.org/10.1093/nar/gky1210.
 
