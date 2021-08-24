@@ -12,15 +12,17 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [ChIP-seq](#chip-seq)
   - [ChIP-seq pipelines](#chip-seq-pipelines)
+    - [Normalization](#normalization)
     - [CUT&RUN](#cutrun)
   - [Quality control](#quality-control)
   - [Peaks](#peaks)
+  - [Enhancers](#enhancers)
   - [Visualization](#visualization)
   - [Motif search](#motif-search)
   - [Differential peak detection](#differential-peak-detection)
   - [Enrichment](#enrichment)
   - [Interpretation](#interpretation)
-  - [Blacklisted](#blacklisted)
+  - [Excludable](#excludable)
 - [DNAse-seq](#dnase-seq)
 - [ATAC-seq](#atac-seq)
   - [ATAC-seq pipelines](#atac-seq-pipelines)
@@ -63,6 +65,10 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - `ChIPLine` - a pipeline for ChIP-seq analysis, https://github.com/ay-lab/ChIPLine
 
+#### Normalization
+
+- [CHIPIN](https://github.com/BoevaLab/CHIPIN) - ChIP-seq Intersample Normalization using gene expression. Assumption - non-differential genes should have non-differential peaks.
+
 - `S3norm` - Chip-seq normalization to sequencing depth AND signal-to-noise ratio to the common reference. Negative Binomial for modeling background, convert counts to -log10(p-values), use monotonic nonlinear model to match the means of the common peaks and backgrounds in two datasets. https://github.com/guanjue/S3norm
     - Xiang, Guanjue, Cheryl Keller, Belinda Giardine, Lin An, Ross Hardison, and Yu Zhang. “S3norm: Simultaneous Normalization of Sequencing Depth and Signal-to-Noise Ratio in Epigenomic Data.” BioRxiv, January 1, 2018, 506634. https://doi.org/10.1101/506634.
 
@@ -93,13 +99,16 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - `mosaics` - This package provides functions for fitting MOSAiCS and MOSAiCS-HMM, a statistical framework to analyze one-sample or two-sample ChIP-seq data of transcription factor binding and histone modification. https://bioconductor.org/packages/release/bioc/html/mosaics.html
 
-- `ROSE` - rank-ordering of super-enhancers. https://bitbucket.org/young_computation/rose
-
 - `RSEG` - ChIP-seq broad domain analysis. http://smithlabresearch.org/software/rseg/
     - Song, Qiang, and Andrew D Smith. “Identifying Dispersed Epigenomic Domains from ChIP-Seq Data.” Bioinformatics 27, no. 6 (2011): 870–871.
 
 - `triform` - finds enriched regions (peaks) in transcription factor ChIP-sequencing data. https://bioconductor.org/packages/release/bioc/html/triform.html
 
+### Enhancers
+
+- [ROSE](https://bitbucket.org/young_computation/rose) - rank-ordering of super-enhancers using H3K27ac ChIP-seq data, by the Young lab.
+
+- [LILI](https://github.com/BoevaLab/LILY) - a pipeline by Boeva lab for detection of super-enhancers using H3K27ac ChIP-seq data, which includes explicit correction for copy number variation inherent to cancer samples. The pipeline is based on the ROSE algorithm originally developed by the Young lab.
 
 ### Visualization
 
@@ -177,7 +186,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     - `SICER` (Spatial-clustering Identification of ChIP-Enriched Regions), a ChIP-Seq data analysis method. https://home.gwu.edu/~wpeng/Software.htm
 
 
-### Blacklisted
+### Excludable
 
 - [Repetitive centromeric, telomeric and satellite regions known to have low sequencing confidence - blacklisted regions defined by the ENCODE project](http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/wgEncodeHg19ConsensusSignalArtifactRegions.bed.gz) - from Upton et al., “Epigenomic Profiling of Neuroblastoma Cell Lines.”
 
