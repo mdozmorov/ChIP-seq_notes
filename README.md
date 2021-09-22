@@ -95,6 +95,9 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Peaks
 
+- [epic2](https://github.com/biocore-ntnu/epic2) - diffuse ChIP-seq peak caller, Cython reimplementation of SICER, 30X times faster, 1/7 memory use. Available on Conda and [GitHub](https://github.com/biocore-ntnu/epic2)
+    - Stovner, Endre Bakken. “[Epic2 Efficiently Finds Diffuse Domains in ChIP-Seq Data](https://doi.org/10.1093/bioinformatics/btz232),” Bioinformatics. 2019 Nov 1
+
 - `Genrich` - Detecting sites of genomic enrichment in ChIP-seq and ATAC-seq. https://github.com/jsh58/Genrich, unpublished but highly tested and recommented, https://informatics.fas.harvard.edu/atac-seq-guidelines.html
 
 - `mosaics` - This package provides functions for fitting MOSAiCS and MOSAiCS-HMM, a statistical framework to analyze one-sample or two-sample ChIP-seq data of transcription factor binding and histone modification. https://bioconductor.org/packages/release/bioc/html/mosaics.html
