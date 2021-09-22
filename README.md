@@ -86,6 +86,9 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [SEARC](https://seacr.fredhutch.org/) (Sparse Enrichment Analysis for CUT&RUN) peak caller for CUT&RUN data. Data-driven, peaks with respect to global background or IgG control. Compared to MACS2 and HOMER, more precise and maintains true positive rate at low read depth. Better call wide peaks. Input - bedGraph, output - BED. Command line and [web server](https://seacr.fredhutch.org/)
     - Meers, MP, Tenenbaum, D and Henikoff S (2019). "[Peak calling by sparse enrichment analysis for CUT&RUN chromatin profiling](https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-019-0287-4)". Epigenetics & Chromatin 2019 12:42.
 
+- [CUT&RUNTools 2.0](https://github.com/fl-yu/CUT-RUNTools-2.0) - extended functionality to handle single-cell data, data normalization, peak calling (MACS2, SEACR), dimensionality reduction (Latent Semantic Indexing), downstream functional analysis.
+    - Yu, Fulong, Vijay G Sankaran, and Guo-Cheng Yuan. “[CUT&RUNTools 2.0: A Pipeline for Single-Cell and Bulk-Level CUT&RUN and CUT&Tag Data Analysis](https://doi.org/10.1093/bioinformatics/btab507),” Bioinformatics, 09 July 2021
+
 - [CUT&RUNTools](https://bitbucket.org/qzhudfci/cutruntools/src/master/) - a pipeline to fully process CUT&RUN data and identify protein binding and genomic footprinting from antibody-targeted primary cleavage data. Implemented in R, Python, Bach, runs under the SLURM job submission. At the core, creates a cut matrix of from enzyme cleavage data. Compared with Atactk and Centipede. (Tested, didn't work)
     - Zhu, Qian. “[CUT&RUNTools: A Flexible Pipeline for CUT&RUN Processing and Footprint Analysis](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1802-4),” 2019, 12. 
 
