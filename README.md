@@ -265,6 +265,8 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ### Broad peak analysis
 
+- [EDD](https://github.com/CollasLab/edd) - Enriched Domain Detector, a ChIP-seq peak caller for detection of megabase domains of enrichment.
+
 - [epic2](https://github.com/biocore-ntnu/epic2) - an ultraperformant reimplementation of SICER. It focuses on speed, low memory overhead and ease of use.
     - Stovner, Endre Bakken, and Pål Sætrom. "[epic2 efficiently finds diffuse domains in ChIP-seq data](https://doi.org/10.1093/bioinformatics/btz232)." Bioinformatics, (2019)
 
