@@ -50,11 +50,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - ENCODE3 pipeline v1 specifications, https://docs.google.com/document/d/1lG_Rd7fnYgRpSIqrIfuVlAz2dW1VaSQThzk836Db99c/edit#heading=h.9ecc41kilcvq
 
+- [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. 
+    - Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford A. Meyer, Tao Liu, et al. “[Fast Alignment and Preprocessing of Chromatin Profiles with Chromap](https://doi.org/10.1038/s41467-021-26865-w).” Nature Communications, 12 November 2021
+
 - [CHIPS](https://github.com/liulab-dfci/chips) - A Snakemake pipeline for quality control and reproducible processing of chromatin profiling data (ChIP-seq, ATAC-seq). Alignment, extensive QC, peak calling, downstream analysis (annotation, motif finding, putative targets). Generates an HTML report, plotly interactive plots. Distributed as a Conda recipe.
     - Taing, Len, Gali Bai, Clara Cousins, Paloma Cejas, Xintao Qiu, Zachary T. Herbert, Myles Brown, et al. “[CHIPS: A Snakemake Pipeline for Quality Control and Reproducible Processing of Chromatin Profiling Data](https://doi.org/10.12688/f1000research.52878.1).” F1000Research, (June 30, 2021)
-
-- [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. 
-    - Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford Meyer, Tao Liu, et al. “[Fast Alignment and Preprocessing of Chromatin Profiles with Chromap](https://doi.org/10.1101/2021.06.18.448995).” Preprint. Bioinformatics, June 18, 2021. 
 
 - `AQUAS` ChIP-seq processing pipeline - The AQUAS pipeline is based off the ENCODE (phase-3) transcription factor and histone ChIP-seq pipeline specifications, https://github.com/kundajelab/chipseq_pipeline
 
