@@ -18,7 +18,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
   - [Peaks](#peaks)
   - [Enhancers](#enhancers)
   - [Visualization](#visualization)
-  - [Motif search](#motif-search)
+  - [Motif enrichment](#motif-enrichment)
   - [Differential peak detection](#differential-peak-detection)
   - [Enrichment](#enrichment)
   - [Interpretation](#interpretation)
@@ -138,12 +138,15 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     - Cuscó, Pol, and Guillaume J. Filion. “Zerone: A ChIP-Seq Discretizer for Multiple Replicates with Built-in Quality Control.” Bioinformatics 32, no. 19 (October 1, 2016): 2896–2902. https://doi.org/10.1093/bioinformatics/btw336.
 
 
-### Motif search
+### Motif enrichment
 
 - [pyjaspar](https://github.com/asntech/pyjaspar) - A Pythonic interface to query and access JASPAR transcription factor motifs
 
 - [memes](https://github.com/snystrom/memes/) - an R package interfacing MEME suite (DREME, ME, FIMO, TOMTOM). Using universalmotif_df R/Bioconductor object to make results compatible across tools. De novo motif discovery, differential motifs, known motif enrichment analysis. Visualization capabilities. Case example on ChIP-seq peaks in Drosophila wing development. Requires installation of MEME suite. Docker container with RStudio and everything configured. [Bioconductor](https://bioconductor.org/packages/memes/), [pkgdown website](https://snystrom.github.io/memes-manual/index.html)
     - Nystrom, Spencer L, and Daniel J McKay. “[Memes: An R Interface to the MEME Suite](https://doi.org/10.1101/2021.04.23.441089),” bioRxiv, April 23, 2021. 
+
+- [TFEA.ChIP](https://bioconductor.org/packages/TFEA.ChIP/) - R package for transcription factor enrichment of gene lists (hypergeometric and GSEA) using experimental ChIP-seq datasets (ENCODE, GEO). Tested on known signatures, compared with two PWM-based and ChIP-based, performs comparably or better.
+    - Puente-Santamaria, Laura, Wyeth W. Wasserman, and Luis Del Peso. "[TFEA.ChIP: a tool kit for transcription factor binding site enrichment analysis capitalizing on ChIP-seq datasets](https://doi.org/10.1093/bioinformatics/btz573)." Bioinformatics, (2019)
 
 - [Non-redundant TF motif matches genome-wide](https://www.vierstra.org/resources/motif_clustering#downloads) - Clustering of 2179 motif models. hg38/mm10 BED files download with coordinates
 
