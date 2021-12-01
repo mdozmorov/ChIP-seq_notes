@@ -290,6 +290,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 - `Catchitt` - method for predicting TFBSs, meader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation http://jstacs.de/index.php/Catchitt, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions https://www.synapse.org/#!Synapse:syn11526239/wiki/497341
     - Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y.
 
+- [ChIP-Atlas](http://chip-atlas.org/) - a large database and analysis suite of public ChIP-seq and DNAse-seq experiments (Over 76K experiments, SRA uniformly processed data). Analyses: **Visualization** of peaks in IGV browser, BED file download, **Target genes** identification, **Colocalization** of factors (antigens), **Enrichment analysis** - permutation enrichment of BED regions, with custom background possible. [GitHub](https://github.com/shinyaoki/chipatlas/tree/master/sh), [Documentation](https://github.com/inutano/chip-atlas/wiki)
+    - Oki, Shinya, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. “[ChIP‐Atlas: A Data‐mining Suite Powered by Full Integration of Public ChIP‐seq Data](https://doi.org/10.15252/embr.201846255).” EMBO Reports, (December 2018)
+
 - `hTFtarget` - database of TF-gene target regulations from >7K human ChIP-seq experiments. http://bioinfo.life.hust.edu.cn/hTFtarget/
 
 - `Cistrome DB` - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. http://cistrome.org/db/#/
