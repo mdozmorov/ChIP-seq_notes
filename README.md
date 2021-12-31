@@ -153,6 +153,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [TFEA.ChIP](https://bioconductor.org/packages/TFEA.ChIP/) - R package for transcription factor enrichment of gene lists (hypergeometric and GSEA) using experimental ChIP-seq datasets (ENCODE, GEO). Tested on known signatures, compared with two PWM-based and ChIP-based, performs comparably or better.
     - Puente-Santamaria, Laura, Wyeth W. Wasserman, and Luis Del Peso. "[TFEA.ChIP: a tool kit for transcription factor binding site enrichment analysis capitalizing on ChIP-seq datasets](https://doi.org/10.1093/bioinformatics/btz573)." Bioinformatics, (2019)
 
+- [TRRUST](https://www.grnpedia.org/trrust/) database (Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining). Over 8K regulatory interactions for 800 TFs in human, and over 6K interactions for 828 mouse TFs. Mouse and human TF regulatory networks overlap, complement each other. More information than in PAZAR, TFactS, TRED, TFe databases. [Download](https://www.grnpedia.org/trrust/downloadnetwork.php), TSV format. [Tools](https://www.grnpedia.org/trrust/Network_search_form.php): 1. Search a gene, 2. Enrichment of key regulators for query genes. <details>
+    <summary>Paper</summary>
+    Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
+</details>
+
 - [Non-redundant TF motif matches genome-wide](https://www.vierstra.org/resources/motif_clustering#downloads) - Clustering of 2179 motif models. hg38/mm10 BED files download with coordinates
 
 - `marge` - API for HOMER in R for Genomic Analysis using Tidy Conventions https://robertamezquita.github.io/marge/, https://github.com/robertamezquita/marge
