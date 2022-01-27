@@ -53,6 +53,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [Chromap](https://github.com/haowenz/chromap) - ultra-fast aligner (>10X faster) for ChIP-seq, Hi-C, scATAC-seq. Based on the minimizer sketch. Memory depends only on genome index size, \~20Gb for human. 
     - Zhang, Haowen, Li Song, Xiaotao Wang, Haoyu Cheng, Chenfei Wang, Clifford A. Meyer, Tao Liu, et al. “[Fast Alignment and Preprocessing of Chromatin Profiles with Chromap](https://doi.org/10.1038/s41467-021-26865-w).” Nature Communications, 12 November 2021
 
+- [SNAP](https://github.com/amplab/snap) - paired-read short-read (70-300bp) aligner based on fussy set intersection. 2-5x faster than BWA-mem2, Bowtie2.  When used with Haplotype Caller from the Genome Analysis Toolkit, SNAP produces better concordance with known-truth sets than other aligners for most of the genome-in-a-bottle and Illumina Platinum genomes. Additonal features: accepts SAM and BAM, outputs sorted, duplicate marked and indexed file. Binaries for Windows, Mac, Linux. [Tweet](https://twitter.com/razoralign/status/1465664608711036932?s=20). <details>
+    <summary>Paper</summary>
+    Bolosky, William J., Arun Subramaniyan, Matei Zaharia, Ravi Pandya, Taylor Sittler, and David Patterson. “Fuzzy Set Intersection Based Paired-End Short-Read Alignment.” Preprint. Bioinformatics, November 23, 2021. https://doi.org/10.1101/2021.11.23.469039.
+</details>
+
 - [CHIPS](https://github.com/liulab-dfci/chips) - A Snakemake pipeline for quality control and reproducible processing of chromatin profiling data (ChIP-seq, ATAC-seq). Alignment, extensive QC, peak calling, downstream analysis (annotation, motif finding, putative targets). Generates an HTML report, plotly interactive plots. Distributed as a Conda recipe.
     - Taing, Len, Gali Bai, Clara Cousins, Paloma Cejas, Xintao Qiu, Zachary T. Herbert, Myles Brown, et al. “[CHIPS: A Snakemake Pipeline for Quality Control and Reproducible Processing of Chromatin Profiling Data](https://doi.org/10.12688/f1000research.52878.1).” F1000Research, (June 30, 2021)
 
