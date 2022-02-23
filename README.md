@@ -28,6 +28,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
   - [ATAC-seq pipelines](#atac-seq-pipelines)
 - [Histone-seq](#histone-seq)
   - [Broad peak analysis](#broad-peak-analysis)
+- [Deep learning](#deep-learning)
 - [Misc](#misc)
 - [Data](#data)
   - [Motif DBs](#motif-dbs)
@@ -281,6 +282,14 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
     - Stovner, Endre Bakken, and Pål Sætrom. "[epic2 efficiently finds diffuse domains in ChIP-seq data](https://doi.org/10.1093/bioinformatics/btz232)." Bioinformatics, (2019)
 
 - [DEScan2](https://bioconductor.org/packages/DEScan2/) - Integrated peak and differential caller, specifically designed for broad epigenomic signals, R package.
+
+## Deep learning
+
+- [maxATAC](https://github.com/MiraldiLab/maxATAC) - TFBS prediction from ATAC-seq (bulk and pseudobulk) in any cell type (whole genome, chromosome, or region). Deep dilated convolutional neural networks, bigWig and BED predictions of TFBSs. [Models avaliable for 127 human TFs](https://github.com/MiraldiLab/maxATAC_data) (h5 files). Outperforms baseline (average ChIP-seq signal, motif scanning) for most TFs and cell lines. AUPR is similar to the top performer in the ENCODE-DREAM in vivo TFBS prediction challenge (0.4). OMNI-ATAC-seq data for three cell lines, to be available. ATAC-seq scaling to signal per replicate to 20 million mapped reads (RP20M) and min-max normalized to 99th percentile signals. Python, separate functions  for each step (prepare, average, normalize, train, predict, benchmark, peaks, variants). [Tweet 1](https://twitter.com/tareian_it_up/status/1487614524492505090?s=20&t=1dQPuanBrvUUlP_g-Uo9jQ), [Tweet 2](https://twitter.com/EmilyMiraldi/status/1494414950848253953?s=20&t=1dQPuanBrvUUlP_g-Uo9jQ). <details>
+    <summary>Paper</summary>
+    Cazares, Tareian A, Faiz W Rizvi, Balaji Iyer, Xiaoting Chen, Michael Kotliar, Joseph A Wayman, Anthony Bejjani, et al. “MaxATAC: Genome-Scale Transcription-Factor Binding Prediction from ATAC-Seq with Deep Neural Networks.” Preprint. Bioinformatics, January 29, 2022. https://doi.org/10.1101/2022.01.28.478235.
+</details>
+
 
 ## Misc
 
