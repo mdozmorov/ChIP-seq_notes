@@ -330,5 +330,10 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ### Motif DBs
 
+- [CIS-BP](http://cisbp.ccbr.utoronto.ca/index.php) (The Catalog of Inferred Sequence Binding Preferences) - database of inferred sequence binding preferences. DNA sequence preferences for >1,000 TFs encompassing 54 different DBD classes from 131 diverse eukaryotes. PBM microarray assays to analyze TF binding preferences. Closely related DBDs (70% Amino Acid identity) almost always have very similar DNA sequence preferences, enabling inference of motifs for approx. 34% of the 70,000 known or predicted eukaryotic TFs. Tools to scan single sequence for TF binding, two sequences for differential TF binding (including SNP effect scan), protein scan, motif scan. Bulk download of PWMs, protein sequences, TF information, logos. <details>
+    <summary>Paper</summary>
+    Weirauch, Matthew T., Ally Yang, Mihai Albu, Atina G. Cote, Alejandro Montenegro-Montero, Philipp Drewe, Hamed S. Najafabadi, et al. “Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity.” Cell 158, no. 6 (September 2014): 1431–43. https://doi.org/10.1016/j.cell.2014.08.009.
+</details>
+
 - `HOCOMOCO` - TF binding models from ChIP-seq data. http://hocomoco11.autosome.ru/
 
