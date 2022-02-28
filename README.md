@@ -140,8 +140,10 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [pyjaspar](https://github.com/asntech/pyjaspar) - A Pythonic interface to query and access JASPAR transcription factor motifs
 
-- [memes](https://github.com/snystrom/memes/) - an R package interfacing MEME suite (DREME, ME, FIMO, TOMTOM). Using universalmotif_df R/Bioconductor object to make results compatible across tools. De novo motif discovery, differential motifs, known motif enrichment analysis. Visualization capabilities. Case example on ChIP-seq peaks in Drosophila wing development. Requires installation of MEME suite. Docker container with RStudio and everything configured. [Bioconductor](https://bioconductor.org/packages/memes/), [pkgdown website](https://snystrom.github.io/memes-manual/index.html)
-    - Nystrom, Spencer L, and Daniel J McKay. “[Memes: An R Interface to the MEME Suite](https://doi.org/10.1101/2021.04.23.441089),” bioRxiv, April 23, 2021. 
+- [memes](https://github.com/snystrom/memes/) - an R package interfacing MEME suite (DREME, ME, FIMO, TOMTOM). Using universalmotif_df R/Bioconductor object to make results compatible across tools. De novo motif discovery, differential motifs, known motif enrichment analysis. Visualization capabilities. Case example on ChIP-seq peaks in Drosophila wing development. Requires installation of MEME suite. Docker container with RStudio and everything configured. [Bioconductor](https://bioconductor.org/packages/memes/), [pkgdown website](https://snystrom.github.io/memes-manual/index.html).  <details>
+    <summary>Paper</summary>
+    Nystrom, Spencer L, and Daniel J McKay. “Memes: A Motif Analysis Environment in R Using Tools from the MEME Suite.” PLOS COMPUTATIONAL BIOLOGY, n.d., 14.
+</details>
 
 - [ChEA3](https://maayanlab.cloud/chea3/) - transcription factor enrichment in gene lists. Six reference libraries of TF regulatory signatures (ARCHS4, ENCODE, GTeX, ReMap, Enrichr, Literature). Fisher's exact test. Outperform VIPER, DoRothEA, BART, TFEA.ChIP, oPOSSUM, MAGICACT. <details>
     <summary>Paper</summary>
