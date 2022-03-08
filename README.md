@@ -28,6 +28,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
   - [ATAC-seq pipelines](#atac-seq-pipelines)
 - [Histone-seq](#histone-seq)
   - [Broad peak analysis](#broad-peak-analysis)
+- [Technology](#technology)
 - [Machine learning](#machine-learning)
 - [Misc](#misc)
 - [Data](#data)
@@ -284,6 +285,13 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
     - Stovner, Endre Bakken, and Pål Sætrom. "[epic2 efficiently finds diffuse domains in ChIP-seq data](https://doi.org/10.1093/bioinformatics/btz232)." Bioinformatics, (2019)
 
 - [DEScan2](https://bioconductor.org/packages/DEScan2/) - Integrated peak and differential caller, specifically designed for broad epigenomic signals, R package.
+
+## Technology
+
+- **CLIP-seq** (cross-linking and immunoprecipitation) technology, detects sites bound by a protein to RNAs.Figure 1 - technology overview, Figure 2 - details of HITS-CLIP/iCLIP/irCLIP/eCLIP/PAR-CLIP/Proximity-CLIP. Computational analysis, Table 3 - peak detection software. Databases ([doRiNA](https://dorina.mdc-berlin.de/), [ENCORI](https://starbase.sysu.edu.cn/), [POSTAR3](http://111.198.139.65/)). <details>
+    <summary>Paper</summary>
+    Hafner, Markus, Maria Katsantoni, Tino Köster, James Marks, Joyita Mukherjee, Dorothee Staiger, Jernej Ule, and Mihaela Zavolan. "CLIP and complementary methods." Nature Reviews Methods Primers 1, no. 1 (2021): 1-23. https://doi.org/10.1038/s43586-021-00018-1
+</details>
 
 ## Machine learning
 
