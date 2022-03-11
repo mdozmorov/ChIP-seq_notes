@@ -100,6 +100,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Peaks
 
+- [LanceOtron](https://github.com/LHentges/LanceOtron) - deep learning-based peak caller from TF and histone ChIP-seq, ATAC-seq, DNAse-seq. Input - bigWig coverage file (+input, if available). Image recognition using wide and deep model (logistic regression producing enrichment scores, CNN, multilayer perceptron, Fig. 1c, Methods). Trained on hand-labeled data. Outperforms MACS2. Visualization using [MLV genome visualization](https://github.com/Hughes-Genome-Group/mlv) software. [Website](https://lanceotron.molbiol.ox.ac.uk/) with videos, documentation. <details>
+    <summary>Paper</summary>
+    Hentges, Lance D., Martin J. Sergeant, Damien J. Downes, Jim R. Hughes, and Stephen Taylor. "LanceOtron: a deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq." bioRxiv (2021). https://doi.org/10.1101/2021.01.25.428108
+</details>
+
 - [epic2](https://github.com/biocore-ntnu/epic2) - diffuse ChIP-seq peak caller, Cython reimplementation of SICER, 30X times faster, 1/7 memory use. Available on Conda and [GitHub](https://github.com/biocore-ntnu/epic2)
     - Stovner, Endre Bakken. “[Epic2 Efficiently Finds Diffuse Domains in ChIP-Seq Data](https://doi.org/10.1093/bioinformatics/btz232),” Bioinformatics. 2019 Nov 1
 
