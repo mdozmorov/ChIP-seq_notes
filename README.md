@@ -202,6 +202,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Interpretation
 
+- [Cistrome-GO](http://go.cistrome.org/) - functional enrichment analysis of genes regulated by TFs in human and mouse. Solo mode (ChIP-seq peaks only) or ensemble mode (integrates ChIP-seq peaks and RNA-seq differentially expressed genes). Implementation of BETA method. MACS2 peaks, DESeq2 output. Gene-centric regulatory potential (RP) score (exponentially weighted by distance sum of peaks). Human (hg19/hg38), Mouse (mm9/mm10). <details>
+    <summary>Paper</summary>
+    Li, Shaojuan, Changxin Wan, Rongbin Zheng, Jingyu Fan, Xin Dong, Clifford A. Meyer, and X. Shirley Liu. “Cistrome-GO: A Web Server for Functional Enrichment Analysis of Transcription Factor ChIP-Seq Peaks.” Nucleic Acids Research 47, no. W1 (July 2, 2019): W206–11. https://doi.org/10.1093/nar/gkz332.
+</details>
+
 - `Toolkit for Cistrome Data Browser` - online tool to answer questions like:
     - What factors regulate your gene of interest?
     - What factors bind in your interval?
