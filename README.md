@@ -182,6 +182,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [pyjaspar](https://github.com/asntech/pyjaspar) - A Pythonic interface to query and access JASPAR transcription factor motifs
 
+- [RcisTarget](https://bioconductor.org/packages/RcisTarget/) - R package to identify transcription factor binding motifs enriched on a list of genes or genomic regions.
+
 - [rGADEM](https://bioconductor.org/packages/rGADEM/) - R package for de novo motif discovery.
 
 
