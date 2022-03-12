@@ -144,8 +144,6 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Motif enrichment
 
-- [pyjaspar](https://github.com/asntech/pyjaspar) - A Pythonic interface to query and access JASPAR transcription factor motifs
-
 - [memes](https://github.com/snystrom/memes/) - an R package interfacing MEME suite (DREME, ME, FIMO, TOMTOM). Using universalmotif_df R/Bioconductor object to make results compatible across tools. De novo motif discovery, differential motifs, known motif enrichment analysis. Visualization capabilities. Case example on ChIP-seq peaks in Drosophila wing development. Requires installation of MEME suite. Docker container with RStudio and everything configured. [Bioconductor](https://bioconductor.org/packages/memes/), [pkgdown website](https://snystrom.github.io/memes-manual/index.html).  <details>
     <summary>Paper</summary>
     Nystrom, Spencer L, and Daniel J McKay. “Memes: A Motif Analysis Environment in R Using Tools from the MEME Suite.” PLOS COMPUTATIONAL BIOLOGY, n.d., 14.
@@ -164,27 +162,27 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
 </details>
 
-- [Non-redundant TF motif matches genome-wide](https://www.vierstra.org/resources/motif_clustering#downloads) - Clustering of 2179 motif models. hg38/mm10 BED files download with coordinates
-
-- `marge` - API for HOMER in R for Genomic Analysis using Tidy Conventions https://robertamezquita.github.io/marge/, https://github.com/robertamezquita/marge
-
-- `LISA` - epigenetic Landscape In silico Subtraction analysis, enriched TFs and chromatin regulators in a list of genes. http://lisa.cistrome.org
-
-- `AME-MEME` - enrichment of known user-provided motifs in a sequence, http://meme-suite.org/doc/ame.html, http://meme-suite.org/tools/ame
-
-- `rGADEM` - de novo motif discovery, https://bioconductor.org/packages/release/bioc/html/rGADEM.html
-
 - [gimmemotifs](https://github.com/vanheeringen-lab/gimmemotifs) - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. [Documentation](https://gimmemotifs.readthedocs.io). [Tweet with updates](https://twitter.com/svheeringen/status/1313778158999666688?s=20)
     - Bruse, Niklas, and Simon J. van Heeringen. “[GimmeMotifs: An Analysis Framework for Transcription Factor Motif Analysis](https://doi.org/10.1101/474403),” November 20, 2018
 
 - `DECOD` - Differential motif finder. k-mer-based. http://gene.ml.cmu.edu/DECOD/
     - Huggins, Peter, Shan Zhong, Idit Shiff, Rachel Beckerman, Oleg Laptenko, Carol Prives, Marcel H. Schulz, Itamar Simon, and Ziv Bar-Joseph. “DECOD: Fast and Accurate Discriminative DNA Motif Finding.” Bioinformatics 27, no. 17 (September 1, 2011): 2361–67. https://doi.org/10.1093/bioinformatics/btr412.
 
-- `motifStack` - Plot stacked logos for single or multiple DNA, RNA and amino acid sequence, https://bioconductor.org/packages/release/bioc/html/motifStack.html
+- [Non-redundant TF motif matches genome-wide](https://www.vierstra.org/resources/motif_clustering#downloads) - Clustering of 2179 motif models. hg38/mm10 BED files download with coordinates
 
-- `Logolas` - R package for Enrichment Depletion Logos (EDLogos) and String Logos, https://github.com/kkdey/Logolas
+- [homerkit](https://github.com/slowkow/homerkit) - Read HOMER motif analysis output in R. 
 
-- `homerkit` - Read HOMER motif analysis output in R. https://github.com/slowkow/homerkit
+- [LISA](http://lisa.cistrome.org/) - epigenetic Landscape In silico Subtraction analysis, enriched TFs and chromatin regulators in a list of genes.
+
+- [Logolas](https://github.com/kkdey/Logolas) - R package for Enrichment Depletion Logos (EDLogos) and String Logos.
+
+- [marge](https://robertamezquita.github.io/marge/) - API for HOMER in R for Genomic Analysis using Tidy Conventions, [GitHub](https://github.com/robertamezquita/marge)
+
+- [motifStack](https://bioconductor.org/packages/motifStack/) - R package for plotting stacked logos for single or multiple DNA, RNA and amino acid sequence.
+
+- [pyjaspar](https://github.com/asntech/pyjaspar) - A Pythonic interface to query and access JASPAR transcription factor motifs
+
+- [rGADEM](https://bioconductor.org/packages/rGADEM/) - R package for de novo motif discovery.
 
 
 ### Differential peak detection
