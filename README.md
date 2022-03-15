@@ -245,34 +245,38 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ## ATAC-seq
 
+- [awesome-atac-analysis](https://github.com/databio/awesome-atac-analysis) Awesome ATAC-seq analysis by Nathan Sheffield.
+
 - [Benchmarking ATAC-seq peak calling](https://bigmonty12.github.io/peak-calling-benchmark) by Austin Montgomery
 
-- Awesome ATAC-seq analysis by Nathan Sheffield, https://github.com/databio/awesome-atac-analysis
-
-- `TOBIAS` - Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal. https://github.com/loosolab/TOBIAS
-
-- ATAC-seq peak-calling and differential analysis pipeline. https://github.com/nf-core/atacseq, http://nf-co.re
-
-- Dimensionality Reduction for scATAC-seq Data, http://andrewjohnhill.com/images/posts/2019-5-6-dimensionality-reduction-for-scatac-data/analysis.html
+- ATAC-seq analysis considerations. Considering multiple workflows, settling on csaw-based. Normalization by library complexity (downsampling) is important. [Workflow](https://github.com/reskejak/ATAC-seq/blob/master/ATACseq_workflow.txt) and [GitHub](https://github.com/reskejak/ATAC-seq) with all scripts. <details>
+    <summary>Paper</summary>
+    Reske, Jake J., Mike R. Wilson, and Ronald L. Chandler. “ATAC-Seq Normalization Method Can Significantly Affect Differential Accessibility Analysis and Interpretation.” Epigenetics & Chromatin 13, no. 1 (December 2020): 22. https://doi.org/10.1186/s13072-020-00342-y.
+</details>
 
 ### ATAC-seq pipelines
 
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline) - ATAC-seq and DNase-seq processing pipeline by Anshul Kundaje
 
-- `scATAC-pro` - A comprehensive tool for processing, analyzing and visulizing single cell chromatin accessibility sequencing data. https://github.com/wbaopaul/scATAC-pro
+- [HINT-ATAC](http://www.regulatory-genomics.org/hint/introduction/) - a footprinting method considering ATAC-seq protocol biases. Uses a position dependency model (PDM) to learn the cleavage preferences (Methods). Compared against three footprinting methods, DNase2TF, PIQ, Wellington. PDMs are crucial for correction of cleavage bias for ATAC-seq for all methods. Also improves correction for DNAse-seq data. Comparison of protocols, Omni-ATAC (best performance), Fast-ATAC. Part of [RGT, Regulatory Genomics Toolbox](https://github.com/CostaLab/reg-gen). [Tutorial](https://www.regulatory-genomics.org/hint/tutorial-differential-footprints-on-scatac-seq/). <details>
+    <summary>Paper</summary>
+    Li, Zhijian, Marcel H. Schulz, Thomas Look, Matthias Begemann, Martin Zenke, and Ivan G. Costa. “Identification of Transcription Factor Binding Sites Using ATAC-Seq.” Genome Biology, (December 2019). https://doi.org/10.1186/s13059-019-1642-2
+</details>
 
-ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
+- [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC) - hidden Markov model for ATAC-seq to identify open chromatin regions. Parametric modeling of nucleosome-free regions and three nucleosomal reatures (mono-, di-, and tri-nucleosomes). First, train on 1000 auto-selected regions, then predict. Tested on "active promoters" and "strong enhancers" chromatin states (positive examples), and "heterochromatin" (negative examples). Compared with MACS2, F-seq. <details>
+    <summary>Paper</summary>
+    Tarbell, Evan D, and Tao Liu. “HMMRATAC: A Hidden Markov ModeleR for ATAC-Seq.” Nucleic Acids Research, June 14, 2019, gkz533. https://doi.org/10.1093/nar/gkz533
+</details>
 
-- `ATACProc` - ATAC-seq processing pipeline, https://github.com/ay-lab/ATACProc
+- ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
 
-- [HINT-ATAC](http://www.regulatory-genomics.org/hint/introduction/) - a footprinting method considering ATAC-seq protocol biases. Uses a position dependency model (PDM) to learn the cleavage preferences (Methods). Compared against three footprinting methods, DNase2TF, PIQ, Wellington. PDMs are crucial for correction of cleavage bias for ATAC-seq for all methods. Also improves correction for DNAse-seq data. Comparison of protocols, Omni-ATAC (best performance), Fast-ATAC. Part of [RGT, Regulatory Genomics Toolbox](https://github.com/CostaLab/reg-gen). [Tutorial](https://www.regulatory-genomics.org/hint/tutorial-differential-footprints-on-scatac-seq/)
-    - Li, Zhijian, Marcel H. Schulz, Thomas Look, Matthias Begemann, Martin Zenke, and Ivan G. Costa. “[Identification of Transcription Factor Binding Sites Using ATAC-Seq](https://doi.org/10.1186/s13059-019-1642-2).” Genome Biology, (December 2019)
+- [ATACProc](https://github.com/ay-lab/ATACProc) - ATAC-seq processing pipeline
 
-- `HMMRATAC` - hidden Markov model for ATAC-seq to identify open chromatin regions. Parametric modeling of nucleosome-free regions and three nucleosomal reatures (mono-, di-, and tri-nucleosomes). First, train on 1000 auto-selected regions, then predict. Tested on "active promoters" and "strong enhancers" chromatin states (positive examples), and "heterochromatin" (negative examples). Compared with MACS2, F-seq. https://github.com/LiuLabUB/HMMRATAC
-    - Tarbell, Evan D, and Tao Liu. “HMMRATAC: A Hidden Markov ModeleR for ATAC-Seq.” Nucleic Acids Research, June 14, 2019, gkz533. https://doi.org/10.1093/nar/gkz533.
+- [atacseq](https://github.com/nf-core/atacseq) - nf-core ATAC-seq peak-calling and differential analysis pipeline.
 
-- `pepatac` - A modular, containerized pipeline for ATAC-seq data processing. https://github.com/databio/pepatac, examples and documentation at http://code.databio.org/PEPATAC/
+- [pepatac](https://github.com/databio/pepatac) - A modular, containerized pipeline for ATAC-seq data processing. [Examples and documentation](http://code.databio.org/PEPATAC/)
 
+- [TOBIAS](https://github.com/loosolab/TOBIAS) - Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal. 
 
 ## Histone-seq
 
