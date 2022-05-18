@@ -10,6 +10,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Databases](#databases)
+  - [Motif DBs](#motif-dbs)
 - [ChIP-seq](#chip-seq)
   - [ChIP-seq pipelines](#chip-seq-pipelines)
     - [Normalization](#normalization)
@@ -31,15 +33,66 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [Technology](#technology)
 - [Machine learning](#machine-learning)
 - [Misc](#misc)
-- [Data](#data)
-  - [Motif DBs](#motif-dbs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Databases
+
+- [UniBind database](https://unibind.uio.no/) - TFBS predictions of approx. 56 million TFBSs with experimental and computational support for direct TF-DNA interactions for 644 TFs in > 1000 cell lines and tissues. Processed approx. 10,000 public ChIP-seq datasets from nine species using [ChIP-eat](https://bitbucket.org/CBGR/chip-eat/src/master/). ChIP-eat combines both computational (high PWM score) and experimental (centrality to ChIP-seq peak summit) support to find high-confidence direct TF-DNA interactions in a ChIP-seq experiment-specific manner, uses the DAMO tool. Input data - ReMap 2018 and GTRD. Robust and permissive collections. Over 197,000 Cis-regulatory modules. [Downloads](https://unibind.uio.no/downloads/) of BED, FASTA, PWMs, [Tracks for the UCSC GenomeBrowser](https://unibind.uio.no/genome-tracks/), [API](https://unibind.uio.no/api/), [Enrichment analysis, online](https://unibind.uio.no/enrichment/) with or without background, differential enrichment. [UniBind Enrichment BitBucket](https://bitbucket.org/CBGR/unibind_enrichment/src/master/). <details>
+    <summary>Paper</summary>
+    Puig, Rafael Riudavets, Paul Boddie, Aziz Khan, Jaime Abraham Castro-Mondragon, and Anthony Mathelier. “UniBind: Maps of High-Confidence Direct TF-DNA Interactions across Nine Species” BMC Genomics, (December 2021) https://doi.org/10.1186/s12864-021-07760-6
+
+    Gheorghe, Marius, Geir Kjetil Sandve, Aziz Khan, Jeanne Chèneby, Benoit Ballester, and Anthony Mathelier. “A Map of Direct TF–DNA Interactions in the Human Genome.” Nucleic Acids Research 47, no. 4 (February 28, 2019): e21–e21. https://doi.org/10.1093/nar/gky1210
+</details>
+
+- [ReMap](https://remap.univ-amu.fr/) is an integrative analysis of Homo sapiens, Mus musculus and Arabidopsis thaliana transcriptional regulators from DNA-binding experiments such as ChIP-seq, ChIP-exo, DAP-seq from public sources (GEO, ENCODE, ENA). Human hg38 and Arabidopsis TAOR10. All peaks, non-redundant peaks, cis-Regulatory Modules. [GitHub](https://github.com/remap-cisreg). [Download](https://remap.univ-amu.fr/download_page) genomic coordinates. <details>
+    <summary>Paper</summary>
+     Chèneby, Jeanne, Zacharie Ménétrier, Martin Mestdagh, Thomas Rosnet, Allyssa Douida, Wassim Rhalloussi, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “[ReMap 2020: A Database of Regulatory Regions from an Integrative Analysis of Human and Arabidopsis DNA-Binding Sequencing Experiments](https://doi.org/10.1093/nar/gkz945).” Nucleic Acids Research, October 29, 2019
+
+     Hammal, Fayrouz, Pierre de Langen, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “ReMap 2022: A Database of Human, Mouse, Drosophila and Arabidopsis Regulatory Regions from an Integrative Analysis of DNA-Binding Sequencing Experiments.” Nucleic Acids Research, November 9, 2021, gkab996. https://doi.org/10.1093/nar/gkab996.
+</details>
+
+- [Catchitt](http://jstacs.de/index.php/Catchitt) - method for predicting TFBSs, leader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions, [download](https://www.synapse.org/#!Synapse:syn11526239/wiki/497341). <details>
+    <summary>Paper</summary>
+    Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y
+</details>
+
+- [RAEdb](http://www.computationalbiology.cn/RAEdb/index.php) - enhancer database. Enhancers identified from STARR-seq and MPRA studies. Epromoters - promoters containing enhancers. Human (hg38)/mouse (mm10) data, select cell lines. BED/FASTQ download. Links to EnhancerAtlas, VISTA, SuperEnhancer databases. <details>
+    <summary>Paper</summary>
+    Cai, Zena, Ya Cui, Zhiying Tan, Gaihua Zhang, Zhongyang Tan, Xinlei Zhang, and Yousong Peng. “RAEdb: A Database of Enhancers Identified by High-Throughput Reporter Assays.” Database: The Journal of Biological Databases and Curation 2019 (January 1, 2019). https://doi.org/10.1093/database/bay140.
+</details>
+
+- [ChIP-Atlas](http://chip-atlas.org/) - a large database and analysis suite of public ChIP-seq and DNAse-seq experiments (Over 76K experiments, SRA uniformly processed data). Analyses: **Visualization** of peaks in IGV browser, BED file download, **Target genes** identification, **Colocalization** of factors (antigens), **Enrichment analysis** - permutation enrichment of BED regions, with custom background possible. [GitHub](https://github.com/shinyaoki/chipatlas/tree/master/sh), [Documentation](https://github.com/inutano/chip-atlas/wiki). <details>
+    <summary>Paper</summary>
+    Oki, Shinya, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. “ChIP‐Atlas: A Data‐mining Suite Powered by Full Integration of Public ChIP‐seq Data” EMBO Reports, (December 2018) https://doi.org/10.15252/embr.201846255
+</details>
+
+- [Cistrome DB](http://cistrome.org/db/#/) - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?" <details>
+    <summary>Paper</summary>
+    Zheng R, Wan C, Mei S, Qin Q, Wu Q, Sun H, Chen CH, Brown M, Zhang X, Meyer CA, Liu XS. Cistrome Data Browser: expanded datasets and new tools for gene regulatory analysis. Nucleic Acids Res, 2018 Nov 20. https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1094/5193328
+    
+    Mei S, Qin Q, Wu Q, Sun H, Zheng R, Zang C, Zhu M, Wu J, Shi X, Taing L, Liu T, Brown M, Meyer CA, Liu XS. Cistrome data browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse. Nucleic Acids Res, 2017 Jan 4;45(D1):D658-D662. https://academic.oup.com/nar/article/45/D1/D658/2333932
+</details>
+
+- [CODEX ChIP-seq](http://codex.stemcells.cam.ac.uk/) - CODEX provides access to processed and curated NGS experiments, including ChIP-Seq (transcription factors and histones), RNA-Seq and DNase-Seq. Human, mouse. Download tracks, analyze correlations, motifs, compare between organisms, more. <details>
+    <summary>Paper</summary>
+    Sánchez-Castillo, Manuel and Ruau, David and Wilkinson, Adam C. and Ng, Felicia S.L. and Hannah, Rebecca and Diamanti, Evangelia and Lombard, Patrick and Wilson, Nicola K. and Gottgens, Berthold. "CODEX: a next-generation sequencing experiment database for the haematopoietic and embryonic stem cell communities" Nucleic Acids Research, Database Issue, September 2014 https://doi.org/10.1093/nar/gku895
+</details>
+
+- [hTFtarget](http://bioinfo.life.hust.edu.cn/hTFtarget/) - database of TF-gene target regulations from >7K human ChIP-seq experiments.
+
+### Motif DBs
+
+- [CIS-BP](http://cisbp.ccbr.utoronto.ca/index.php) (The Catalog of Inferred Sequence Binding Preferences) - database of inferred sequence binding preferences. DNA sequence preferences for >1,000 TFs encompassing 54 different DBD classes from 131 diverse eukaryotes. PBM microarray assays to analyze TF binding preferences. Closely related DBDs (70% Amino Acid identity) almost always have very similar DNA sequence preferences, enabling inference of motifs for approx. 34% of the 70,000 known or predicted eukaryotic TFs. Tools to scan single sequence for TF binding, two sequences for differential TF binding (including SNP effect scan), protein scan, motif scan. Bulk download of PWMs, protein sequences, TF information, logos. <details>
+    <summary>Paper</summary>
+    Weirauch, Matthew T., Ally Yang, Mihai Albu, Atina G. Cote, Alejandro Montenegro-Montero, Philipp Drewe, Hamed S. Najafabadi, et al. “Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity.” Cell 158, no. 6 (September 2014): 1431–43. https://doi.org/10.1016/j.cell.2014.08.009.
+</details>
+
+- [HOCOMOCO](http://hocomoco11.autosome.ru/) - TF binding models from ChIP-seq data. 
 
 ## ChIP-seq
 
 - [ChIP-seq-analysis](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq analysis notes from Ming Tang
-
 
 ### ChIP-seq pipelines
 
@@ -328,46 +381,4 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 ## Misc
 
 - `covtobed` - a tool to generate BED coverage tracks from BAM files. https://github.com/telatin/covtobed
-
-## Data
-
-- [UniBind database](https://unibind.uio.no/) - TFBS predictions of approx. 56 million TFBSs with experimental and computational support for direct TF-DNA interactions for 644 TFs in > 1000 cell lines and tissues. Processed approx. 10,000 public ChIP-seq datasets from nine species using [ChIP-eat](https://bitbucket.org/CBGR/chip-eat/src/master/). ChIP-eat combines both computational (high PWM score) and experimental (centrality to ChIP-seq peak summit) support to find high-confidence direct TF-DNA interactions in a ChIP-seq experiment-specific manner, uses the DAMO tool. Input data - ReMap 2018 and GTRD. Robust and permissive collections. Over 197,000 Cis-regulatory modules. [Downloads](https://unibind.uio.no/downloads/) of BED, FASTA, PWMs, [Tracks for the UCSC GenomeBrowser](https://unibind.uio.no/genome-tracks/), [API](https://unibind.uio.no/api/), [Enrichment analysis, online](https://unibind.uio.no/enrichment/) with or without background, differential enrichment. [UniBind Enrichment BitBucket](https://bitbucket.org/CBGR/unibind_enrichment/src/master/)
-    - Puig, Rafael Riudavets, Paul Boddie, Aziz Khan, Jaime Abraham Castro-Mondragon, and Anthony Mathelier. “[UniBind: Maps of High-Confidence Direct TF-DNA Interactions across Nine Species](https://doi.org/10.1186/s12864-021-07760-6).” BMC Genomics, (December 2021)
-
-- [ReMap](https://remap.univ-amu.fr/) is an integrative analysis of Homo sapiens, Mus musculus and Arabidopsis thaliana transcriptional regulators from DNA-binding experiments such as ChIP-seq, ChIP-exo, DAP-seq from public sources (GEO, ENCODE, ENA). Human hg38 and Arabidopsis TAOR10. All peaks, non-redundant peaks, cis-Regulatory Modules. [GitHub](https://github.com/remap-cisreg). [Download](https://remap.univ-amu.fr/download_page) genomic coordinates. <details>
-    <summary>Paper</summary>
-     Chèneby, Jeanne, Zacharie Ménétrier, Martin Mestdagh, Thomas Rosnet, Allyssa Douida, Wassim Rhalloussi, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “[ReMap 2020: A Database of Regulatory Regions from an Integrative Analysis of Human and Arabidopsis DNA-Binding Sequencing Experiments](https://doi.org/10.1093/nar/gkz945).” Nucleic Acids Research, October 29, 2019
-
-     Hammal, Fayrouz, Pierre de Langen, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “ReMap 2022: A Database of Human, Mouse, Drosophila and Arabidopsis Regulatory Regions from an Integrative Analysis of DNA-Binding Sequencing Experiments.” Nucleic Acids Research, November 9, 2021, gkab996. https://doi.org/10.1093/nar/gkab996.
-</details>
-
-- `Catchitt` - method for predicting TFBSs, meader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation http://jstacs.de/index.php/Catchitt, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions https://www.synapse.org/#!Synapse:syn11526239/wiki/497341
-    - Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y.
-
-- [ChIP-Atlas](http://chip-atlas.org/) - a large database and analysis suite of public ChIP-seq and DNAse-seq experiments (Over 76K experiments, SRA uniformly processed data). Analyses: **Visualization** of peaks in IGV browser, BED file download, **Target genes** identification, **Colocalization** of factors (antigens), **Enrichment analysis** - permutation enrichment of BED regions, with custom background possible. [GitHub](https://github.com/shinyaoki/chipatlas/tree/master/sh), [Documentation](https://github.com/inutano/chip-atlas/wiki)
-    - Oki, Shinya, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. “[ChIP‐Atlas: A Data‐mining Suite Powered by Full Integration of Public ChIP‐seq Data](https://doi.org/10.15252/embr.201846255).” EMBO Reports, (December 2018)
-
-- `hTFtarget` - database of TF-gene target regulations from >7K human ChIP-seq experiments. http://bioinfo.life.hust.edu.cn/hTFtarget/
-
-- `Cistrome DB` - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. http://cistrome.org/db/#/
-    - [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?"
-
-- `ChIP-Atlas` is an integrative and comprehensive database for visualizing and making use of public ChIP-seq data. ChIP-Atlas covers almost all public ChIP-seq data submitted to the SRA (Sequence Read Archives) in NCBI, DDBJ, or ENA, and is based on over 78,000 experiments. Besides "Peak browser" tool, includes "Target Genes", "Colocalization", "Enrichment Analysis" tools. http://chip-atlas.org/, code on GetHub, https://github.com/inutano/chip-atlas
-
-- `CODEX ChIP-seq` - CODEX provides access to processed and curated NGS experiments, including ChIP-Seq (transcription factors and histones), RNA-Seq and DNase-Seq. Human, mouse. Download tracks, analyze correlations, motifs, compare between organisms, more. http://codex.stemcells.cam.ac.uk/
-
-- `RAEdb` - enhancer database. Enhancers identified from STARR-seq and MPRA studies. Epromoters - promoters containing enhancers. Human (hg38)/mouse (mm10) data, select cell lines. BED/FASTQ download. Links to EnhancerAtlas, VISTA, SuperEnhancer databases. http://www.computationalbiology.cn/RAEdb/index.php
-    - Cai, Zena, Ya Cui, Zhiying Tan, Gaihua Zhang, Zhongyang Tan, Xinlei Zhang, and Yousong Peng. “RAEdb: A Database of Enhancers Identified by High-Throughput Reporter Assays.” Database: The Journal of Biological Databases and Curation 2019 (January 1, 2019). https://doi.org/10.1093/database/bay140.
-
-- `UniBind` database of robustly predicted TF binding sites. Using ChIP-seq data from 1983 studies, PWMs, binding energy, and many other parameters. HOT/XOT regions are likely artifacts, not TFBSs. Downloadable (hg38) database.  https://unibind.uio.no/
-    - Gheorghe, Marius, Geir Kjetil Sandve, Aziz Khan, Jeanne Chèneby, Benoit Ballester, and Anthony Mathelier. “A Map of Direct TF–DNA Interactions in the Human Genome.” Nucleic Acids Research 47, no. 4 (February 28, 2019): e21–e21. https://doi.org/10.1093/nar/gky1210.
-
-### Motif DBs
-
-- [CIS-BP](http://cisbp.ccbr.utoronto.ca/index.php) (The Catalog of Inferred Sequence Binding Preferences) - database of inferred sequence binding preferences. DNA sequence preferences for >1,000 TFs encompassing 54 different DBD classes from 131 diverse eukaryotes. PBM microarray assays to analyze TF binding preferences. Closely related DBDs (70% Amino Acid identity) almost always have very similar DNA sequence preferences, enabling inference of motifs for approx. 34% of the 70,000 known or predicted eukaryotic TFs. Tools to scan single sequence for TF binding, two sequences for differential TF binding (including SNP effect scan), protein scan, motif scan. Bulk download of PWMs, protein sequences, TF information, logos. <details>
-    <summary>Paper</summary>
-    Weirauch, Matthew T., Ally Yang, Mihai Albu, Atina G. Cote, Alejandro Montenegro-Montero, Philipp Drewe, Hamed S. Najafabadi, et al. “Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity.” Cell 158, no. 6 (September 2014): 1431–43. https://doi.org/10.1016/j.cell.2014.08.009.
-</details>
-
-- `HOCOMOCO` - TF binding models from ChIP-seq data. http://hocomoco11.autosome.ru/
 
