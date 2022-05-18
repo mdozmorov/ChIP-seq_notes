@@ -74,6 +74,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Mei S, Qin Q, Wu Q, Sun H, Zheng R, Zang C, Zhu M, Wu J, Shi X, Taing L, Liu T, Brown M, Meyer CA, Liu XS. Cistrome data browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse. Nucleic Acids Res, 2017 Jan 4;45(D1):D658-D662. https://academic.oup.com/nar/article/45/D1/D658/2333932
 </details>
 
+- [TRRUST](https://www.grnpedia.org/trrust/) database (Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining). Over 8K regulatory interactions for 800 TFs in human, and over 6K interactions for 828 mouse TFs. Mouse and human TF regulatory networks overlap, complement each other. More information than in PAZAR, TFactS, TRED, TFe databases. [Download](https://www.grnpedia.org/trrust/downloadnetwork.php), TSV format. [Tools](https://www.grnpedia.org/trrust/Network_search_form.php): 1. Search a gene, 2. Enrichment of key regulators for query genes. <details>
+    <summary>Paper</summary>
+    Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
+</details>
+
 - [CODEX ChIP-seq](http://codex.stemcells.cam.ac.uk/) - CODEX provides access to processed and curated NGS experiments, including ChIP-Seq (transcription factors and histones), RNA-Seq and DNase-Seq. Human, mouse. Download tracks, analyze correlations, motifs, compare between organisms, more. <details>
     <summary>Paper</summary>
     Sánchez-Castillo, Manuel and Ruau, David and Wilkinson, Adam C. and Ng, Felicia S.L. and Hannah, Rebecca and Diamanti, Evangelia and Lombard, Patrick and Wilson, Nicola K. and Gottgens, Berthold. "CODEX: a next-generation sequencing experiment database for the haematopoietic and embryonic stem cell communities" Nucleic Acids Research, Database Issue, September 2014 https://doi.org/10.1093/nar/gku895
@@ -213,11 +218,6 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - <a name="pwmscan">[PWMScan](https://ccg.epfl.ch/pwmtools/pwmscan.php)</a> - web tool for scanning entire genomes with a position-specific weight matrix. Multiple genomes and assemblies hosted on the server. Multiple PWM collections for Eukaryotic DNA (JASPAR, HOCOMOCO, SwissRegulon, UniPROBE, CIS-BP, from Jomla, Isakova publications) matrix_scan C program for matching PWMs. Compared with other motif scanning tools (PoSSuMseqrch, Patser, RSAT, STORM, HOMER), overlap >99%. Output - [BEDdetail](https://genome.ucsc.edu/FAQ/FAQformat.html#format1.7) format. [Code](https://sourceforge.net/projects/pwmscan/). <details>
     <summary>Paper</summary>
     Ambrosini, Giovanna, Romain Groux, and Philipp Bucher. “PWMScan: A Fast Tool for Scanning Entire Genomes with a Position-Specific Weight Matrix.” Edited by John Hancock. Bioinformatics 34, no. 14 (July 15, 2018): 2483–84. https://doi.org/10.1093/bioinformatics/bty127.
-</details>
-
-- [TRRUST](https://www.grnpedia.org/trrust/) database (Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining). Over 8K regulatory interactions for 800 TFs in human, and over 6K interactions for 828 mouse TFs. Mouse and human TF regulatory networks overlap, complement each other. More information than in PAZAR, TFactS, TRED, TFe databases. [Download](https://www.grnpedia.org/trrust/downloadnetwork.php), TSV format. [Tools](https://www.grnpedia.org/trrust/Network_search_form.php): 1. Search a gene, 2. Enrichment of key regulators for query genes. <details>
-    <summary>Paper</summary>
-    Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
 </details>
 
 - [gimmemotifs](https://github.com/vanheeringen-lab/gimmemotifs) - framework for TF motif analysis using an ensemble of motif predictors. `maelstrom` tool to detect differential motif activity between multiple different conditions. Includes manually curated database of motifs. Benchmark of 14 motif detection tools - Homer, MEME, BioProspector are among the top performing. Extensive analysis results. [Documentation](https://gimmemotifs.readthedocs.io). [Tweet with updates](https://twitter.com/svheeringen/status/1313778158999666688?s=20)
