@@ -382,3 +382,6 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 - `covtobed` - a tool to generate BED coverage tracks from BAM files. https://github.com/telatin/covtobed
 
+- [UCSC Genome Browser API](http://genome.ucsc.edu/goldenPath/help/api.html) to retrieve DNA sequence from coordinates. 
+    - https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chrM;start=4321;end=5678
+    - https://genome.ucsc.edu/cgi-bin/das/hg19/dna?segment=chr1:4336341,4336599
