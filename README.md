@@ -67,16 +67,21 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Oki, Shinya, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno. “ChIP‐Atlas: A Data‐mining Suite Powered by Full Integration of Public ChIP‐seq Data” EMBO Reports, (December 2018) https://doi.org/10.15252/embr.201846255
 </details>
 
+- [TRRUST](https://www.grnpedia.org/trrust/) database (Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining). Over 8K regulatory interactions for 800 TFs in human, and over 6K interactions for 828 mouse TFs. Mouse and human TF regulatory networks overlap, complement each other. More information than in PAZAR, TFactS, TRED, TFe databases. [Download](https://www.grnpedia.org/trrust/downloadnetwork.php), TSV format. [Tools](https://www.grnpedia.org/trrust/Network_search_form.php): 1. Search a gene, 2. Enrichment of key regulators for query genes. <details>
+    <summary>Paper</summary>
+    Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
+</details>
+
+- [GTRD](http://gtrd.biouml.org) - transcription factor binding sites, ChIP-seq, uniformly processed. Table 1 - other resources. hg38, mm38. Experiment search, processed data/peaks download. <details>
+    <summary>Paper</summary>
+    Yevshin, Ivan, Ruslan Sharipov, Tagir Valeev, Alexander Kel, and Fedor Kolpakov. “GTRD: A Database of Transcription Factor Binding Sites Identified by ChIP-Seq Experiments.” Nucleic Acids Research 45, no. D1 (January 4, 2017): D61–67. https://doi.org/10.1093/nar/gkw951.
+</details>
+
 - [Cistrome DB](http://cistrome.org/db/#/) - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?" <details>
     <summary>Paper</summary>
     Zheng R, Wan C, Mei S, Qin Q, Wu Q, Sun H, Chen CH, Brown M, Zhang X, Meyer CA, Liu XS. Cistrome Data Browser: expanded datasets and new tools for gene regulatory analysis. Nucleic Acids Res, 2018 Nov 20. https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1094/5193328
     
     Mei S, Qin Q, Wu Q, Sun H, Zheng R, Zang C, Zhu M, Wu J, Shi X, Taing L, Liu T, Brown M, Meyer CA, Liu XS. Cistrome data browser: a data portal for ChIP-Seq and chromatin accessibility data in human and mouse. Nucleic Acids Res, 2017 Jan 4;45(D1):D658-D662. https://academic.oup.com/nar/article/45/D1/D658/2333932
-</details>
-
-- [TRRUST](https://www.grnpedia.org/trrust/) database (Transcriptional Regulatory Relationships Unraveled by Sentence-based Text mining). Over 8K regulatory interactions for 800 TFs in human, and over 6K interactions for 828 mouse TFs. Mouse and human TF regulatory networks overlap, complement each other. More information than in PAZAR, TFactS, TRED, TFe databases. [Download](https://www.grnpedia.org/trrust/downloadnetwork.php), TSV format. [Tools](https://www.grnpedia.org/trrust/Network_search_form.php): 1. Search a gene, 2. Enrichment of key regulators for query genes. <details>
-    <summary>Paper</summary>
-    Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
 </details>
 
 - [CODEX ChIP-seq](http://codex.stemcells.cam.ac.uk/) - CODEX provides access to processed and curated NGS experiments, including ChIP-Seq (transcription factors and histones), RNA-Seq and DNase-Seq. Human, mouse. Download tracks, analyze correlations, motifs, compare between organisms, more. <details>
