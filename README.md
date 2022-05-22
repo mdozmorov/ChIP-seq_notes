@@ -72,9 +72,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
 </details>
 
-- <a name="gtrd">[GTRD](http://gtrd.biouml.org)</a> - transcription factor binding sites, ChIP-seq, uniformly processed. Table 1 - other resources. hg38, mm38. Experiment search, processed data/peaks download. <details>
+- <a name="gtrd">[GTRD](http://gtrd.biouml.org)</a> - transcription factor binding sites and data (ChIP-seq, ChIP-seo, DNAse-seq, MNase-seq, ATAC-seq, RNA-seq), uniformly processed, over 35K experiments. Seven species, TFs linked to CIS-BP. All cell types are assigned onthology. Experiment search, processed data/peaks download (BED, bigBed, bigWig). <details>
     <summary>Paper</summary>
     Yevshin, Ivan, Ruslan Sharipov, Tagir Valeev, Alexander Kel, and Fedor Kolpakov. “GTRD: A Database of Transcription Factor Binding Sites Identified by ChIP-Seq Experiments.” Nucleic Acids Research 45, no. D1 (January 4, 2017): D61–67. https://doi.org/10.1093/nar/gkw951.
+
+    Kolmykov, Semyon, Ivan Yevshin, Mikhail Kulyashov, Ruslan Sharipov, Yury Kondrakhin, Vsevolod J Makeev, Ivan V Kulakovskiy, Alexander Kel, and Fedor Kolpakov. “GTRD: An Integrated View of Transcription Regulation.” Nucleic Acids Research 49, no. D1 (January 8, 2021): D104–11. https://doi.org/10.1093/nar/gkaa1057.
 </details>
 
 - [Cistrome DB](http://cistrome.org/db/#/) - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?" <details>
