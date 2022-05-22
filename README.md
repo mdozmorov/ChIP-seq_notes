@@ -72,7 +72,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Han, Heonjong, Jae-Won Cho, Sangyoung Lee, Ayoung Yun, Hyojin Kim, Dasom Bae, Sunmo Yang, et al. “TRRUST v2: An Expanded Reference Database of Human and Mouse Transcriptional Regulatory Interactions.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D380–86. https://doi.org/10.1093/nar/gkx1013.
 </details>
 
-- [GTRD](http://gtrd.biouml.org) - transcription factor binding sites, ChIP-seq, uniformly processed. Table 1 - other resources. hg38, mm38. Experiment search, processed data/peaks download. <details>
+- <a name="gtrd">[GTRD](http://gtrd.biouml.org)</a> - transcription factor binding sites, ChIP-seq, uniformly processed. Table 1 - other resources. hg38, mm38. Experiment search, processed data/peaks download. <details>
     <summary>Paper</summary>
     Yevshin, Ivan, Ruslan Sharipov, Tagir Valeev, Alexander Kel, and Fedor Kolpakov. “GTRD: A Database of Transcription Factor Binding Sites Identified by ChIP-Seq Experiments.” Nucleic Acids Research 45, no. D1 (January 4, 2017): D61–67. https://doi.org/10.1093/nar/gkw951.
 </details>
@@ -98,11 +98,13 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Weirauch, Matthew T., Ally Yang, Mihai Albu, Atina G. Cote, Alejandro Montenegro-Montero, Philipp Drewe, Hamed S. Najafabadi, et al. “Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity.” Cell 158, no. 6 (September 2014): 1431–43. https://doi.org/10.1016/j.cell.2014.08.009.
 </details>
 
-- [HOCOMOCO](https://hocomoco11.autosome.org/) (Homo sapiens comprehensive model collection) - TFBS models and PWMs. Human- and mouse-specific models. Used [ChIPMunk](https://autosome.org/ChIPMunk/) in four computational models, including using DNA shape. One model per TF is manually selected. Twice as many models as in JASPAR. <details>
+- [HOCOMOCO](https://hocomoco11.autosome.org/) (Homo sapiens comprehensive model collection) - TFBS models and PWMs. Human- and mouse-specific models. HOCOMOCO v11 contains binding models for 453 mouse and 680 human transcription factors and includes 1302 mononucleotide and 576 dinucleotide position weight matrices. Uniformly processed data from [GTRD](#gtrd), peaks called with four peak callers (). Used [ChIPMunk](https://autosome.org/ChIPMunk/) in four computational models, including using DNA shape. Added [MoLoTool](https://molotool.autosome.org/), a web app to scan DNA sequences for TFBSs with PWMs. One model per TF is manually selected. Twice as many models as in JASPAR. <details>
     <summary>Paper</summary>
     Kulakovskiy, Ivan V., Yulia A. Medvedeva, Ulf Schaefer, Artem S. Kasianov, Ilya E. Vorontsov, Vladimir B. Bajic, and Vsevolod J. Makeev. “HOCOMOCO: A Comprehensive Collection of Human Transcription Factor Binding Sites Models.” Nucleic Acids Research 41, no. D1 (January 1, 2013): D195–202. https://doi.org/10.1093/nar/gks1089.
 
     Kulakovskiy, Ivan V., Ilya E. Vorontsov, Ivan S. Yevshin, Anastasiia V. Soboleva, Artem S. Kasianov, Haitham Ashoor, Wail Ba-alawi, et al. “HOCOMOCO: Expansion and Enhancement of the Collection of Transcription Factor Binding Sites Models.” Nucleic Acids Research 44, no. D1 (January 4, 2016): D116–25. https://doi.org/10.1093/nar/gkv1249.
+
+    Kulakovskiy, Ivan V, Ilya E Vorontsov, Ivan S Yevshin, Ruslan N Sharipov, Alla D Fedorova, Eugene I Rumynskiy, Yulia A Medvedeva, et al. “HOCOMOCO: Towards a Complete Collection of Transcription Factor Binding Models for Human and Mouse via Large-Scale ChIP-Seq Analysis.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D252–59. https://doi.org/10.1093/nar/gkx1106.
 </details>
 
 ## ChIP-seq
