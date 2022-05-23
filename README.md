@@ -57,6 +57,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Abramov, Sergey, Alexandr Boytsov, Daria Bykova, Dmitry D. Penzar, Ivan Yevshin, Semyon K. Kolmykov, Marina V. Fridman, et al. “Landscape of Allele-Specific Transcription Factor Binding in the Human Genome.” Nature Communications 12, no. 1 (December 2021): 2751. https://doi.org/10.1038/s41467-021-23007-0.
 </details>
 
+- [ANANASTRA](https://ananastra.autosome.org/) - ANnotation and enrichment ANalysis of Allele-Specific TRAnscription factor binding at SNPs. Annotates a given list of SNPs with allele-specific binding events across a wide range of transcription factors and cell types using [ADASTRA](#adastra). Enrichment analysis of SNPs in cell type-specific TFBSs (Fisher's exact, one-sided). [API](https://ananastra.autosome.org/api/v4/). <details>
+    <summary>Paper</summary>
+    Boytsov, Alexandr, Sergey Abramov, Ariuna Z Aiusheeva, Alexandra M Kasianova, Eugene Baulin, Ivan A Kuznetsov, Yurii S Aulchenko, et al. “ANANASTRA: Annotation and Enrichment Analysis of Allele-Specific Transcription Factor Binding at SNPs.” Nucleic Acids Research, April 21, 2022, gkac262. https://doi.org/10.1093/nar/gkac262.
+</details>
+
 - [Catchitt](http://jstacs.de/index.php/Catchitt) - method for predicting TFBSs, leader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions, [download](https://www.synapse.org/#!Synapse:syn11526239/wiki/497341). <details>
     <summary>Paper</summary>
     Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y
