@@ -52,6 +52,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
      Hammal, Fayrouz, Pierre de Langen, Aurélie Bergon, Fabrice Lopez, and Benoit Ballester. “ReMap 2022: A Database of Human, Mouse, Drosophila and Arabidopsis Regulatory Regions from an Integrative Analysis of DNA-Binding Sequencing Experiments.” Nucleic Acids Research, November 9, 2021, gkab996. https://doi.org/10.1093/nar/gkab996.
 </details>
 
+- [ADASTRA](https://adastra.autosome.org) -  the database of Allelic Dosage-corrected Allele-Specific human Transcription factor binding sites (over 500K sites across 1073 human TFs and 649 cell types, reprocessed data from [GTRD](#gtrd), pipeline at [GitHub](https://github.com/autosome-ru/ADASTRA-pipeline)) at nearly 270K SNPs. Background Allele Dosage (BAD) maps. Many SNPs overlap eQTLs. <details>
+    <summary>Paper</summary>
+    Abramov, Sergey, Alexandr Boytsov, Daria Bykova, Dmitry D. Penzar, Ivan Yevshin, Semyon K. Kolmykov, Marina V. Fridman, et al. “Landscape of Allele-Specific Transcription Factor Binding in the Human Genome.” Nature Communications 12, no. 1 (December 2021): 2751. https://doi.org/10.1038/s41467-021-23007-0.
+</details>
+
 - [Catchitt](http://jstacs.de/index.php/Catchitt) - method for predicting TFBSs, leader of ENCODE-DREAM challenge. Other methods - table in supplementary. AUPRC to benchmark performance. DNAse-seq is the best predictor, RNA-seq and sequence-based features are not informative. Java implementation, predicted peaks for 32 transcription factors in 22 primary cell types and tissues (682 total) BED hg19 files, conservative and relaxed predictions, [download](https://www.synapse.org/#!Synapse:syn11526239/wiki/497341). <details>
     <summary>Paper</summary>
     Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y
