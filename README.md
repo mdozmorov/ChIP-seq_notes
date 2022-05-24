@@ -119,6 +119,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Kulakovskiy, Ivan V, Ilya E Vorontsov, Ivan S Yevshin, Ruslan N Sharipov, Alla D Fedorova, Eugene I Rumynskiy, Yulia A Medvedeva, et al. “HOCOMOCO: Towards a Complete Collection of Transcription Factor Binding Models for Human and Mouse via Large-Scale ChIP-Seq Analysis.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D252–59. https://doi.org/10.1093/nar/gkx1106.
 </details>
 
+- [SwissRegulon](https://swissregulon.unibas.ch/sr/) - a database of regulatory motifs (PWMs) across model organisms (prokaryots, eukaryots). Data partly comes from JASPAR and TRANSFAC, reprocessing of ChIP-seq experiments. GBrowse for browsing TFBSs. Other tools. <details>
+    <summary>Paper</summary>
+    Pachkov, Mikhail, Piotr J. Balwierz, Phil Arnold, Evgeniy Ozonov, and Erik van Nimwegen. “SwissRegulon, a Database of Genome-Wide Annotations of Regulatory Sites: Recent Updates.” Nucleic Acids Research 41, no. D1 (November 23, 2012): D214–20. https://doi.org/10.1093/nar/gks1145.
+</details>
+
 ## ChIP-seq
 
 - [ChIP-seq-analysis](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq analysis notes from Ming Tang
