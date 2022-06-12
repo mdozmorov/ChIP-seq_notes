@@ -130,6 +130,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### ChIP-seq pipelines
 
+- [ChIP-AP](https://github.com/JSuryatenggara/ChIP-AP) - ChIP-seq analysis pipeline integrating multiple tools and peak callers (FastQC, Clumpify and BBDuk from the BBMap Suite, Trimmomatic, BWA, Samtools, deepTools, MACS2, GEM, SICER2, HOMER, Genrich, IDR, and the MEME-Suite). QC, cleanup, alignment, peak-calling, pathway analysis. High-confidence peaks based on overlaps by different peak callers. Input - single- or paired-end FASTQ files or aligned BAM files. Conda installable. Command line and GUI. [Documentation](https://github.com/JSuryatenggara/ChIP-AP/wiki/ChIP-AP-Guide). <details>
+    <summary>Paper</summary>
+    Suryatenggara, Jeremiah, Kol Jia Yong, Danielle E. Tenen, Daniel G. Tenen, and Mahmoud A. Bassal. "ChIP-AP: an integrated analysis pipeline for unbiased ChIP-seq analysis." Briefings in Bioinformatics 23, no. 1 (January 2022) https://doi.org/10.1093/bib/bbab537
+</details>
+
 - Regulatory Genomics Toolbox: Python library and set of tools for the integrative analysis of high throughput regulatory genomics data. http://www.regulatory-genomics.org, https://github.com/CostaLab/reg-gen
     - HINT (Hmm-based IdeNtification of Transcription factor footprints) is a framework for detection of DNA footprints from DNase-Seq and histone modification ChIP-Seq data.
     - Motif Analysis tools allows the search of motifs with binding sites enriched in particular genomic regions
