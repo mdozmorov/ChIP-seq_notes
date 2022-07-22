@@ -399,6 +399,11 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
     Hafner, Markus, Maria Katsantoni, Tino Köster, James Marks, Joyita Mukherjee, Dorothee Staiger, Jernej Ule, and Mihaela Zavolan. "CLIP and complementary methods." Nature Reviews Methods Primers 1, no. 1 (2021): 1-23. https://doi.org/10.1038/s43586-021-00018-1
 </details>
 
+- **STARR-seq** (self-transcribing active regulatory region sequencing) technology for enhancer identification. 3 min [Video](https://youtu.be/1csmHhsnkxE) protocol. Applied to Drosophila genome. The majority (55.6%) of identified enhancers were located within introns, especially in the first intron (37.2%), and in intergenic regions (22.6%). Many genes appeared to be regulated by several independently functioning enhancers. <details>
+    <summary>Paper</summary>
+    Arnold, Cosmas D., Daniel Gerlach, Christoph Stelzer, Łukasz M. Boryń, Martina Rath, and Alexander Stark. “Genome-Wide Quantitative Enhancer Activity Maps Identified by STARR-Seq.” Science 339, no. 6123 (March 2013): 1074–77. https://doi.org/10.1126/science.1232542.
+</details>
+
 ## Machine learning
 
 - [maxATAC](https://github.com/MiraldiLab/maxATAC) - TFBS prediction from ATAC-seq (bulk and pseudobulk) in any cell type (whole genome, chromosome, or region). Deep dilated convolutional neural networks, bigWig and BED predictions of TFBSs. [Models avaliable for 127 human TFs](https://github.com/MiraldiLab/maxATAC_data) (h5 files). Outperforms baseline (average ChIP-seq signal, motif scanning) for most TFs and cell lines. AUPR is similar to the top performer in the ENCODE-DREAM in vivo TFBS prediction challenge (0.4). OMNI-ATAC-seq data for three cell lines, to be available. ATAC-seq scaling to signal per replicate to 20 million mapped reads (RP20M) and min-max normalized to 99th percentile signals. Python, separate functions  for each step (prepare, average, normalize, train, predict, benchmark, peaks, variants). [Tweet 1](https://twitter.com/tareian_it_up/status/1487614524492505090?s=20&t=1dQPuanBrvUUlP_g-Uo9jQ), [Tweet 2](https://twitter.com/EmilyMiraldi/status/1494414950848253953?s=20&t=1dQPuanBrvUUlP_g-Uo9jQ). <details>
