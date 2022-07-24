@@ -394,6 +394,11 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Technology
 
+- [ATAC-STARR-seq](https://github.com/HodgesGenomicsLab/ATAC-STARR-seq) - updated protocol that combined transposase-accessible chromatin (ATAC-seq) with self-transcribing active regulatory region sequencing (STARR-seq) to selectively assay the regulatory potential of accessible DNA. Includes protocols for plasmid library generation, reporter assay, data analysis (peak-within-peak calling, adapted DESeq2 to normalize reporter RNA read counts to plasmid DNA read counts. Keep duplicates). Agrees with ATAC-seq, much less noisy. [GSE181317](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181317) - data. [GitHub](https://github.com/HodgesGenomicsLab/ATAC-STARR-seq) - computational pipeline. <details>
+    <summary>Paper</summary>
+    Hansen, Tyler J., and Emily Hodges. “Identifying Transcription Factor-Bound Activators and Silencers in the Chromatin Accessible Human Genome Using ATAC-STARR-Seq.” Preprint. Genomics, March 28, 2022. https://doi.org/10.1101/2022.03.25.485870.
+</details>
+
 - **CLIP-seq** (cross-linking and immunoprecipitation) technology, detects sites bound by a protein to RNAs.Figure 1 - technology overview, Figure 2 - details of HITS-CLIP/iCLIP/irCLIP/eCLIP/PAR-CLIP/Proximity-CLIP. Computational analysis, Table 3 - peak detection software. Databases ([doRiNA](https://dorina.mdc-berlin.de/), [ENCORI](https://starbase.sysu.edu.cn/), [POSTAR3](http://111.198.139.65/)). <details>
     <summary>Paper</summary>
     Hafner, Markus, Maria Katsantoni, Tino Köster, James Marks, Joyita Mukherjee, Dorothee Staiger, Jernej Ule, and Mihaela Zavolan. "CLIP and complementary methods." Nature Reviews Methods Primers 1, no. 1 (2021): 1-23. https://doi.org/10.1038/s43586-021-00018-1
