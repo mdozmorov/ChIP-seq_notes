@@ -313,6 +313,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Excludable
 
+- [Greenscreen](https://github.com/sklasfeld/GreenscreenProject) - an approach for removing false-positive peaks (ultra-high noise) from ChIP-seq data (also, CUT&RUN) using MACS2 (broadpeak setting, optimized significance threshold and merging distance to match Blacklist-created regions). As effective as canonical blacklists, improves true factor binding overlap, improves Standardized Standard Deviation (SSD -> 1), improves replicate correlation structure. Uses as few as three samples, 99.9% overlap with Blacklist-created regions, smaller genomic footprint, same performance as Blacklist-generated. <details>
+    <summary>Paper</summary>
+    Klasfeld, Sammy, and Doris Wagner. “Greenscreen Decreases Type I Errors and Increases True Peak Detection in Genomic Datasets Including ChIP-Seq.” Preprint. Genomics, March 1, 2022. https://doi.org/10.1101/2022.02.27.482177.
+</details>
+
 - [Repetitive centromeric, telomeric and satellite regions known to have low sequencing confidence - blacklisted regions defined by the ENCODE project](http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/wgEncodeHg19ConsensusSignalArtifactRegions.bed.gz) - from Upton et al., “Epigenomic Profiling of Neuroblastoma Cell Lines.”
 
 - [Manually annotated GRCh38 blacklisted regions](https://www.encodeproject.org/files/ENCFF356LFX/) on ENCODE data portal. [Tweet by Anshul Kundaje](https://twitter.com/anshulkundaje/status/1263546023151992832?s=20)
