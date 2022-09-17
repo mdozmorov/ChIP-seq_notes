@@ -315,23 +315,24 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Excludable
 
+- [Blacklist](https://github.com/Boyle-Lab/Blacklist) - Application for making ENCODE Blacklists, and links to canonical blacklists. C, C++. <details>
+    <summary>Paper</summary>
+    Amemiya, Haley M., Anshul Kundaje, and Alan P. Boyle. “The ENCODE Blacklist: Identification of Problematic Regions of the Genome.” Scientific Reports 9, no. 1 (December 2019): 9354. https://doi.org/10.1038/s41598-019-45839-z.
+</details>
+
+- [GEM](https://sourceforge.net/projects/gemlibrary/files/gem-library/) - mappability calculations for each genomic region, accounting for mismatches. Pre-calculated UCSC genome browser tracks for human and mouse. Mappability of genes, both protein-coding and non-protein coding. RPKUM - unique exons for quantifying gene expression. <details>
+    <summary>Paper</summary>
+    Derrien, Thomas, Jordi Estellé, Santiago Marco Sola, David G. Knowles, Emanuele Raineri, Roderic Guigó, and Paolo Ribeca. “Fast Computation and Applications of Genome Mappability.” PloS One 7, no. 1 (2012): e30377. https://doi.org/10.1371/journal.pone.0030377.
+</details>
+
 - [Greenscreen](https://github.com/sklasfeld/GreenscreenProject) - an approach for removing false-positive peaks (ultra-high noise) from ChIP-seq data (also, CUT&RUN) using MACS2 (broadpeak setting, optimized significance threshold and merging distance to match Blacklist-created regions). As effective as canonical blacklists, improves true factor binding overlap, improves Standardized Standard Deviation (SSD -> 1), improves replicate correlation structure. Uses as few as three samples, 99.9% overlap with Blacklist-created regions, smaller genomic footprint, same performance as Blacklist-generated. <details>
     <summary>Paper</summary>
     Klasfeld, Sammy, and Doris Wagner. “Greenscreen Decreases Type I Errors and Increases True Peak Detection in Genomic Datasets Including ChIP-Seq.” Preprint. Genomics, March 1, 2022. https://doi.org/10.1101/2022.02.27.482177.
 </details>
 
-- [Repetitive centromeric, telomeric and satellite regions known to have low sequencing confidence - blacklisted regions defined by the ENCODE project](http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/wgEncodeHg19ConsensusSignalArtifactRegions.bed.gz) - from Upton et al., “Epigenomic Profiling of Neuroblastoma Cell Lines.”
-
 - [Manually annotated GRCh38 blacklisted regions](https://www.encodeproject.org/files/ENCFF356LFX/) on ENCODE data portal. [Tweet by Anshul Kundaje](https://twitter.com/anshulkundaje/status/1263546023151992832?s=20)
 
-- Blacklisted regions, how they were created. https://github.com/Boyle-Lab/Blacklist/, https://www.encodeproject.org/annotations/ENCSR636HFF/
-    - Amemiya, Haley M., Anshul Kundaje, and Alan P. Boyle. “The ENCODE Blacklist: Identification of Problematic Regions of the Genome.” Scientific Reports 9, no. 1 (December 2019): 9354. https://doi.org/10.1038/s41598-019-45839-z.
-
-- hg19 blacklist - http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeMapability/wgEncodeDukeMapabilityRegionsExcludable.bed.gz, http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeMapability/wgEncodeDacMapabilityConsensusExcludable.bed.gz
-
-- hg38 blacklist - http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg38-human/hg38.blacklist.bed.gz
-
-- mm10 blacklist - http://usevision.org/data/blacklist/blacklist.full.bed
+- [Repetitive centromeric, telomeric and satellite regions known to have low sequencing confidence - blacklisted regions defined by the ENCODE project](http://mitra.stanford.edu/kundaje/akundaje/release/blacklists/hg19-human/wgEncodeHg19ConsensusSignalArtifactRegions.bed.gz) - from Upton et al., “Epigenomic Profiling of Neuroblastoma Cell Lines.”
 
 - [UCSC unusual regions on assembly structure](http://genome.ucsc.edu/cgi-bin/hgTables?db=hg19&hgta_group=map&hgta_track=problematic&hgta_table=comments&hgta_doSchema=describe+table+schema), [Tweet](https://twitter.com/GenomeBrowser/status/1260693767125778434?s=20)
 
