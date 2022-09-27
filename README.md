@@ -354,6 +354,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Reske, Jake J., Mike R. Wilson, and Ronald L. Chandler. “ATAC-Seq Normalization Method Can Significantly Affect Differential Accessibility Analysis and Interpretation.” Epigenetics & Chromatin 13, no. 1 (December 2020): 22. https://doi.org/10.1186/s13072-020-00342-y.
 </details>
 
+- [UNMC_ATACseq_Tutorial](https://github.com/JRowleyLab/UNMC_ATACseq_Tutorial) - An open-source interactive pipeline tutorial for differential ATAC-seq footprint analysis on the cloud (Google, AWS, Azure)
+
 ### ATAC-seq pipelines
 
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline) - ATAC-seq and DNase-seq processing pipeline by Anshul Kundaje
