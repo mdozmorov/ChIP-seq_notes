@@ -315,6 +315,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Excludable
 
+- CUT&RUN blacklists for human (hg38) and mouse (mm10) genomes. Different biochemical properties than ChIP-seq, SEACR peak caller that uses global background. 20 C&R negative control datasets per human/mouse genome, consistently called artifactual peaks (the highest 0.1% signals in more than 30% of replicates, peaks extended by 1Kb) are assembled into blacklists. Also contain mitochondrial sequences (NUMTs). Tested bowtie2 and bowtie alignment strategies. Cover approximately 0.2% of the genome, removing reads overlapping them increases variability among samples (PCA). Compared with the Boyle's Blacklist-generated lists. BED coordinates in [supplementary](https://www.biorxiv.org/content/10.1101/2022.11.11.516118v1.supplementary-material). <details>
+    <summary>Paper</summary>
+    Nordin, Anna, Gianluca Zambanini, Pierfrancesco Pagella, and Claudio Cantù. “The CUT&RUN Blacklist of Problematic Regions of the Genome.” Preprint. Genomics, November 14, 2022. https://doi.org/10.1101/2022.11.11.516118.
+</details>
+
 - [Blacklist](https://github.com/Boyle-Lab/Blacklist) - Application for making ENCODE Blacklists, and links to canonical blacklists. C, C++. <details>
     <summary>Paper</summary>
     Amemiya, Haley M., Anshul Kundaje, and Alan P. Boyle. “The ENCODE Blacklist: Identification of Problematic Regions of the Genome.” Scientific Reports 9, no. 1 (December 2019): 9354. https://doi.org/10.1038/s41598-019-45839-z.
