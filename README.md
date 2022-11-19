@@ -238,6 +238,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Intersections
 
+- [BedSect](https://imgsb.org/bedsect/) - web server for intersection analysis of genomic regions, UpSet and correlation plots. Gene-centric, GREAT enrichment analysis. Integrated with the [GTRD](https://gtrd.biouml.org/) database. [GitHub](https://github.com/sraghav-lab/Bedsect). <details>
+    <summary>Paper</summary>
+    Mishra, Gyan Prakash, Arup Ghosh, Atimukta Jha, and Sunil Kumar Raghav. “BedSect: An Integrated Web Server Application to Perform Intersection, Visualization, and Functional Annotation of Genomic Regions From Multiple Datasets.” Frontiers in Genetics 11 (February 5, 2020): 3. https://doi.org/10.3389/fgene.2020.00003.
+</details>
+
 - [Intervene](https://asntech.shinyapps.io/intervene/) - command line and web server for venn diagrams of overlaps of genomic regions (up to six sets), UpSet plot, correlation heatmap. Python (pybedtools, Seaborn, Matplotlib) and R (UpSetF, Corrplot, Venerable). [BitBucket](https://bitbucket.org/CBGR/intervene/src/master/). <details>
     <summary>Paper</summary>
     Khan, Aziz, and Anthony Mathelier. “Intervene: A Tool for Intersection and Visualization of Multiple Gene or Genomic Region Sets.” BMC Bioinformatics 18, no. 1 (December 2017): 287. https://doi.org/10.1186/s12859-017-1708-7.
