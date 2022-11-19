@@ -20,6 +20,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
   - [Peaks](#peaks)
   - [Enhancers](#enhancers)
   - [Visualization](#visualization)
+    - [Intersections](#intersections)
   - [Motif enrichment](#motif-enrichment)
   - [Differential peak detection](#differential-peak-detection)
   - [Enrichment](#enrichment)
@@ -235,6 +236,12 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - `Zerone` - combine multiple ChIP-seq profiles into one discretized profile. HMM with zero-inflated negative multinomial emissions across windowed genome. QC using SVM trained on ENCODE data to distinguish good from bad samples. Requires two negative controls. Compared against peaks called by MACS, BayesPeak, JAMM. https://github.com/nanakiksc/zerone
     - Cuscó, Pol, and Guillaume J. Filion. “Zerone: A ChIP-Seq Discretizer for Multiple Replicates with Built-in Quality Control.” Bioinformatics 32, no. 19 (October 1, 2016): 2896–2902. https://doi.org/10.1093/bioinformatics/btw336.
 
+### Intersections
+
+- [Intervene](https://asntech.shinyapps.io/intervene/) - command line and web server for venn diagrams of overlaps of genomic regions (up to six sets), UpSet plot, correlation heatmap. Python (pybedtools, Seaborn, Matplotlib) and R (UpSetF, Corrplot, Venerable). [BitBucket](https://bitbucket.org/CBGR/intervene/src/master/). <details>
+    <summary>Paper</summary>
+    Khan, Aziz, and Anthony Mathelier. “Intervene: A Tool for Intersection and Visualization of Multiple Gene or Genomic Region Sets.” BMC Bioinformatics 18, no. 1 (December 2017): 287. https://doi.org/10.1186/s12859-017-1708-7.
+</details>
 
 ### Motif enrichment
 
