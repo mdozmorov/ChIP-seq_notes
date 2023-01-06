@@ -162,6 +162,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 #### Normalization
 
+- [BAMscale](https://github.com/ncbi/BAMscale) - BAMscale is a one-step tool for either 1) quantifying and normalizing the coverage of peaks or 2) generated scaled BigWig files for easy visualization of commonly used DNA-seq capture based methods.
+
 - [CHIPIN](https://github.com/BoevaLab/CHIPIN) - ChIP-seq Intersample Normalization using gene expression. Assumption - non-differential genes should have non-differential peaks.
 
 - `S3norm` - Chip-seq normalization to sequencing depth AND signal-to-noise ratio to the common reference. Negative Binomial for modeling background, convert counts to -log10(p-values), use monotonic nonlinear model to match the means of the common peaks and backgrounds in two datasets. https://github.com/guanjue/S3norm
