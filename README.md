@@ -297,6 +297,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Differential peak detection
 
+- [diffTF](https://git.embl.de/grp-zaugg/diffTF) - differential TF activity calculation and integration with RNA-seq data for classification of TFs into activators or repressors. Differential analysis on consensus peaks using permutations or statistics (diffPeaks). Input: BAM, fasta files, RNA-seq counts, external TFBS data (HOCOMOCO, JASPAR, TRRUST, or ReMap). Applied to several datasets, including multiomics, recovers known biology, experimental validation. Implemented as a Snakemake pipeline. Singularity, conda installation. [Documentation](https://difftf.readthedocs.io/en/latest/index.html). <details>
+    <summary>Paper</summary>
+    Berest, Ivan, Christian Arnold, Armando Reyes-Palomares, Giovanni Palla, Kasper Dindler Rasmussen, Holly Giles, Peter-Martin Bruch, et al. “Quantification of Differential Transcription Factor Activity and Multiomics-Based Classification into Activators and Repressors: DiffTF.” Cell Reports 29, no. 10 (December 2019): 3147-3159.e12. https://doi.org/10.1016/j.celrep.2019.10.106.
+</details>
+
 - [normR](https://bioconductor.org/packages/normr/) - a Bioconductor R package, data-driven normalization and difference calling approach for ChIP-seq data. Models ChIP- and control read counts by binomial mixture model. One component models the background, the other models the signal. Can work without control.  
     - Helmuth, Johannes, et al. "[normR: Regime enrichment calling for ChIP-seq data](https://doi.org/10.1101/082263)." BioRxiv (2016)
 
