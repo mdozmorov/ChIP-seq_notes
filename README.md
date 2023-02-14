@@ -21,7 +21,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
   - [Enhancers](#enhancers)
   - [Visualization](#visualization)
     - [Intersections](#intersections)
-  - [Motif enrichment](#motif-enrichment)
+  - [Motif analysis](#motif-analysis)
   - [Differential peak detection](#differential-peak-detection)
   - [Enrichment](#enrichment)
   - [Interpretation](#interpretation)
@@ -250,7 +250,7 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Khan, Aziz, and Anthony Mathelier. “Intervene: A Tool for Intersection and Visualization of Multiple Gene or Genomic Region Sets.” BMC Bioinformatics 18, no. 1 (December 2017): 287. https://doi.org/10.1186/s12859-017-1708-7.
 </details>
 
-### Motif enrichment
+### Motif analysis
 
 - [memes](https://github.com/snystrom/memes/) - an R package interfacing MEME suite (DREME, ME, FIMO, TOMTOM). Using universalmotif_df R/Bioconductor object to make results compatible across tools. De novo motif discovery, differential motifs, known motif enrichment analysis. Visualization capabilities. Case example on ChIP-seq peaks in Drosophila wing development. Requires installation of MEME suite. Docker container with RStudio and everything configured. [Bioconductor](https://bioconductor.org/packages/memes/), [pkgdown website](https://snystrom.github.io/memes-manual/index.html).  <details>
     <summary>Paper</summary>
@@ -285,6 +285,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [Logolas](https://github.com/kkdey/Logolas) - R package for Enrichment Depletion Logos (EDLogos) and String Logos.
 
 - [marge](https://robertamezquita.github.io/marge/) - API for HOMER in R for Genomic Analysis using Tidy Conventions, [GitHub](https://github.com/robertamezquita/marge)
+
+- [motifbreakR](https://bioconductor.org/packages/motifbreakR/) - R package for predicting the disruptiveness of single nucleotide polymorphism on TFBSs. SNPs may be a list of rsIDs or a BED file. Includes MotifDB PWMs and others (ENCODE, Factorbook, Hocomoco, homer).
 
 - [motifStack](https://bioconductor.org/packages/motifStack/) - R package for plotting stacked logos for single or multiple DNA, RNA and amino acid sequence.
 
