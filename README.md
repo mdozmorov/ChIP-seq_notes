@@ -233,8 +233,6 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - `EaSeq` - peak calling (MACS), visualization, and analysis of ChIP-seq experiments. GUI, Windows-based, stand-alone. Figure 1, 3 - range of functionality, compared with other tools. https://easeq.net/downloadeaseq/. Description of tools: http://easeq.net/tools.pdf, Visualization examples: http://easeq.net/plots.pdf, Workflow examples: http://easeq.net/examples.pdf
     - Lerdrup, Mads, Jens Vilstrup Johansen, Shuchi Agrawal-Singh, and Klaus Hansen. “An Interactive Environment for Agile Analysis and Visualization of ChIP-Sequencing Data.” Nature Structural & Molecular Biology 23, no. 4 (April 2016): 349–57. https://doi.org/10.1038/nsmb.3180.
 
-- `UROPA` - Universal RObustPeak Annotator. http://loosolab.mpi-bn.mpg.de/
-
 - `Zerone` - combine multiple ChIP-seq profiles into one discretized profile. HMM with zero-inflated negative multinomial emissions across windowed genome. QC using SVM trained on ENCODE data to distinguish good from bad samples. Requires two negative controls. Compared against peaks called by MACS, BayesPeak, JAMM. https://github.com/nanakiksc/zerone
     - Cuscó, Pol, and Guillaume J. Filion. “Zerone: A ChIP-Seq Discretizer for Multiple Replicates with Built-in Quality Control.” Bioinformatics 32, no. 19 (October 1, 2016): 2896–2902. https://doi.org/10.1093/bioinformatics/btw336.
 
@@ -332,6 +330,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     - `MARGE` (Model-based Analysis of Regulation of Gene Expression), a comprehensive computational method for inference of cis-regulation of gene expression leveraging public H3K27ac genomic profiles in human or mouse. http://cistrome.org/MARGE/
     - `MANCIE` (Matrix Analysis and Normalization by Concordant Information Enhancement), a computational method for high-dimensional genomic data integration. https://cran.r-project.org/web/packages/MANCIE/index.html
     - `SICER` (Spatial-clustering Identification of ChIP-Enriched Regions), a ChIP-Seq data analysis method. https://home.gwu.edu/~wpeng/Software.htm
+
+- [UROPA](http://loosolab.mpi-bn.mpg.de/) - Universal RObustPeak Annotator, a command line based tool intended for genomic region annotation. Definition of overlap/proximity types. [Documentation](https://uropa-manual.readthedocs.io/)
 
 
 ### Excludable
