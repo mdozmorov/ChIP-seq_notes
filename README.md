@@ -222,6 +222,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Visualization
 
+- [DeepTools](https://deeptools.readthedocs.io/en/develop/) - a suite of python tools particularly developed for the efficient analysis and visualization of high-throughput sequencing data, such as ChIP-seq, RNA-seq or MNase-seq. [deepStats](https://github.com/gtrichard/deepStats) - a stastitical toolbox with additional tools for deeptools and genomic signals.
+
 - Visualizations of ChIP-Seq data using Heatmaps, https://www.biostars.org/p/180314/
 
 - `ChAsE` - Chromatin Analysis & Exploration Tool. http://chase.cs.univie.ac.at/overview
