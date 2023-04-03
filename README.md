@@ -406,7 +406,10 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [pepatac](https://github.com/databio/pepatac) - A modular, containerized pipeline for ATAC-seq data processing. [Examples and documentation](http://code.databio.org/PEPATAC/)
 
-- [TOBIAS](https://github.com/loosolab/TOBIAS) - Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal. 
+- [TOBIAS](https://github.com/loosolab/TOBIAS) (Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal) - transcription factor footprinting framework for ATAC-seq data. Corrects for Tn5 bias (ATACorrect module, Figure 1). Outperforms HINT-ATAC, PIQ, Wellington, similar or better performance as msCentipede. Validated using paired ATAC-seq and ChIP-seq data. Visualization of aggregated ATAC-seq signals, differential and time course analysis, TF clustering, network building. Input - BAM file, genome FASTA, BED peaks. Output - bigWigs of uncorrected, corrected signals, expected and corrected symbols. <details>
+    <summary>Paper</summary>
+    Bentsen, Mette, Philipp Goymann, Hendrik Schultheis, Kathrin Klee, Anastasiia Petrova, René Wiegandt, Annika Fust, et al. “ATAC-Seq Footprinting Unravels Kinetics of Transcription Factor Binding during Zygotic Genome Activation.” Nature Communications 11, no. 1 (August 26, 2020): 4267. https://doi.org/10.1038/s41467-020-18035-1.
+</details> 
 
 ## Histone-seq
 
