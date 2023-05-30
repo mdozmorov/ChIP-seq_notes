@@ -220,6 +220,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [LILI](https://github.com/BoevaLab/LILY) - a pipeline by Boeva lab for detection of super-enhancers using H3K27ac ChIP-seq data, which includes explicit correction for copy number variation inherent to cancer samples. The pipeline is based on the ROSE algorithm originally developed by the Young lab.
 
+- [CenhANCER](https://cenhancer.chenzxlab.cn/#/) - a cancer enhancer database, curating public H3K27ac ChIP-seq data from 805 primary tissue samples and 671 cell line samples across 41 cancer types. 57 029 408 typical enhancers, 978 411 super-enhancers and 226 726 enriched transcription factors. Annotated with SNPs. Table 1 - comparison with other resources (CancerEnD, OncoBase, OncoCis, ENdb, DiseaseEnhancer, SEdb, SEanalysis). <details>
+    <summary>Paper</summary>
+    Luo, Zhi-Hui, Meng-Wei Shi, Yuan Zhang, Dan-Yang Wang, Yi-Bo Tong, Xue-Ling Pan, and ShanShan Cheng. “CenhANCER: A Comprehensive Cancer Enhancer Database for Primary Tissues and Cell Lines.” Database 2023 (May 18, 2023): baad022. https://doi.org/10.1093/database/baad022.
+</details>
+
 ### Visualization
 
 - [DeepTools](https://deeptools.readthedocs.io/en/develop/) - a suite of python tools particularly developed for the efficient analysis and visualization of high-throughput sequencing data, such as ChIP-seq, RNA-seq or MNase-seq. [deepStats](https://github.com/gtrichard/deepStats) - a stastitical toolbox with additional tools for deeptools and genomic signals.
