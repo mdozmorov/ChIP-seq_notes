@@ -384,6 +384,12 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [UNMC_ATACseq_Tutorial](https://github.com/JRowleyLab/UNMC_ATACseq_Tutorial) - An open-source interactive pipeline tutorial for differential ATAC-seq footprint analysis on the cloud (Google, AWS, Azure)
 
+- DNAseI hypersensitive sites from 733 biosamples (439 cell andtissue types and states). NMF to simplify pattern detection. NMF patterns better explain heritability. Data at ENCODE and [Zenodo](https://zenodo.org/record/3838751), [data browser](https://index.altius.org/). [Twitter](https://twitter.com/nameluem/status/1189916668807376898?s=20), [data download](https://www.meuleman.org/research/dhsindex/) <details>
+    <summary>Paper</summary>
+    Meuleman, Wouter, Alexander Muratov, Eric Rynes, Jessica Halow, Kristen Lee, Daniel Bates, Morgan Diegel, et al. “Index and Biological Spectrum of Human DNase I Hypersensitive Sites.” Nature, July 29, 2020. https://doi.org/10.1038/s41586-020-2559-3.
+</details>
+
+
 ### ATAC-seq pipelines
 
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline) - ATAC-seq and DNase-seq processing pipeline by Anshul Kundaje
