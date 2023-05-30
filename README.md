@@ -384,6 +384,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [UNMC_ATACseq_Tutorial](https://github.com/JRowleyLab/UNMC_ATACseq_Tutorial) - An open-source interactive pipeline tutorial for differential ATAC-seq footprint analysis on the cloud (Google, AWS, Azure)
 
+- [OCHROdb](https://dhs.ccm.sickkids.ca/) - a database of open chromatin regions (over 1.4M). 828 DNAse-I experiments, 194 cell lines, uniformly processed, QC'd,peaks called using [Hotspot](https://www.encodeproject.org/software/hotspot/), regulatory elements clustered across all samples, batch effect corrected, reproducible peaks statistically selected. Data from ENCODE, Roadmap Epigenomics Mapping Consortium (REMC), Blueprint Epigenome and Genomics of Gene Regulation (GGR). Downloadable metadata, curated DHS dataset (full and chromosome-specific, BED format with cell/tissue-specific columns with accessibility values), visualized in JBrowse. <details>
+    <summary>Paper</summary>
+    Shooshtari, Parisa, Samantha Feng, Viswateja Nelakuditi, Reza Asakereh, Nader Hosseini Naghavi, Justin Foong, Michael Brudno, and Chris Cotsapas. “Developing OCHROdb, a Comprehensive Quality Checked Database of Open Chromatin Regions from Sequencing Data.” Scientific Reports 13, no. 1 (May 18, 2023): 8106. https://doi.org/10.1038/s41598-022-26791-x.
+</details>
+
 - DNAseI hypersensitive sites from 733 biosamples (439 cell andtissue types and states). NMF to simplify pattern detection. NMF patterns better explain heritability. Data at ENCODE and [Zenodo](https://zenodo.org/record/3838751), [data browser](https://index.altius.org/). [Twitter](https://twitter.com/nameluem/status/1189916668807376898?s=20), [data download](https://www.meuleman.org/research/dhsindex/) <details>
     <summary>Paper</summary>
     Meuleman, Wouter, Alexander Muratov, Eric Rynes, Jessica Halow, Kristen Lee, Daniel Bates, Morgan Diegel, et al. “Index and Biological Spectrum of Human DNase I Hypersensitive Sites.” Nature, July 29, 2020. https://doi.org/10.1038/s41586-020-2559-3.
