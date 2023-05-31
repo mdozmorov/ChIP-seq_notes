@@ -68,6 +68,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Keilwagen, Jens, Stefan Posch, and Jan Grau. “Accurate Prediction of Cell Type-Specific Transcription Factor Binding.” Genome Biology 20, no. 1 (December 2019). https://doi.org/10.1186/s13059-018-1614-y
 </details>
 
+- [C4S DB](https://c4s.site/) - Comprehensive Collection and Comparison for ChIP-Seq Database. Over 16K human ChIP-seq experiments. Data aligned to GRCh37 (hs37d5) genome. "Gene browser" and "global similarity" views. Search for gene symbol, tissue/cell line, ChIP target, sample description/ID. <details>
+    <summary>Paper</summary>
+    Anzawa, Hayato, and Kengo Kinoshita. “C4S DB: Comprehensive Collection and Comparison for ChIP-Seq Database.” Journal of Molecular Biology, May 2023, 168157. https://doi.org/10.1016/j.jmb.2023.168157.
+</details>
+
 - [RAEdb](http://www.computationalbiology.cn/RAEdb/index.php) - enhancer database. Enhancers identified from STARR-seq and MPRA studies. Epromoters - promoters containing enhancers. Human (hg38)/mouse (mm10) data, select cell lines. BED/FASTQ download. Links to EnhancerAtlas, VISTA, SuperEnhancer databases. <details>
     <summary>Paper</summary>
     Cai, Zena, Ya Cui, Zhiying Tan, Gaihua Zhang, Zhongyang Tan, Xinlei Zhang, and Yousong Peng. “RAEdb: A Database of Enhancers Identified by High-Throughput Reporter Assays.” Database: The Journal of Biological Databases and Curation 2019 (January 1, 2019). https://doi.org/10.1093/database/bay140.
