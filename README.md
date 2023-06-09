@@ -419,6 +419,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Tarbell, Evan D, and Tao Liu. “HMMRATAC: A Hidden Markov ModeleR for ATAC-Seq.” Nucleic Acids Research, June 14, 2019, gkz533. https://doi.org/10.1093/nar/gkz533
 </details>
 
+- [ATACseqQC](https://bioconductor.org/packages/ATACseqQC/) - R package for ATAC-seq quality control and analysis. QC, preprocessing, read shift, peak calling, motif analysis, enrichment in nucleosome-free regions, plotting (heatmaps, library complexity). [Table 1](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4559-3/tables/1) - summary of functions. [Additional material](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4559-3#Sec15) - examples of commands, table of comparison with other pipelines. <details>
+    <summary>Paper</summary>
+    Ou, Jianhong, Haibo Liu, Jun Yu, Michelle A. Kelliher, Lucio H. Castilla, Nathan D. Lawson, and Lihua Julie Zhu. “ATACseqQC: A Bioconductor Package for Post-Alignment Quality Assessment of ATAC-Seq Data.” BMC Genomics 19, no. 1 (December 2018): 169. https://doi.org/10.1186/s12864-018-4559-3.
+</details>
+
 - ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
 
 - [ATACProc](https://github.com/ay-lab/ATACProc) - ATAC-seq processing pipeline
