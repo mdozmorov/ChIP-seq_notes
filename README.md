@@ -409,6 +409,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline) - ATAC-seq and DNase-seq processing pipeline by Anshul Kundaje
 
+- [TOBIAS](https://github.com/loosolab/TOBIAS) (Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal) - transcription factor footprinting framework for ATAC-seq data. Corrects for Tn5 bias (ATACorrect module, Figure 1). Outperforms HINT-ATAC, PIQ, Wellington, similar or better performance as msCentipede. Validated using paired ATAC-seq and ChIP-seq data. Visualization of aggregated ATAC-seq signals, differential and time course analysis, TF clustering, network building. Input - BAM file, genome FASTA, BED peaks. Output - bigWigs of uncorrected, corrected signals, expected and corrected symbols. Conda, Neftflow implementation. <details>
+    <summary>Paper</summary>
+    Bentsen, Mette, Philipp Goymann, Hendrik Schultheis, Kathrin Klee, Anastasiia Petrova, René Wiegandt, Annika Fust, et al. “ATAC-Seq Footprinting Unravels Kinetics of Transcription Factor Binding during Zygotic Genome Activation.” Nature Communications 11, no. 1 (August 26, 2020): 4267. https://doi.org/10.1038/s41467-020-18035-1.
+</details> 
+
 - [HINT-ATAC](http://www.regulatory-genomics.org/hint/introduction/) - a footprinting method considering ATAC-seq protocol biases. Uses a position dependency model (PDM) to learn the cleavage preferences (Methods). Compared against three footprinting methods, DNase2TF, PIQ, Wellington. PDMs are crucial for correction of cleavage bias for ATAC-seq for all methods. Also improves correction for DNAse-seq data. Comparison of protocols, Omni-ATAC (best performance), Fast-ATAC. Part of [RGT, Regulatory Genomics Toolbox](https://github.com/CostaLab/reg-gen). [Tutorial](https://www.regulatory-genomics.org/hint/tutorial-differential-footprints-on-scatac-seq/). <details>
     <summary>Paper</summary>
     Li, Zhijian, Marcel H. Schulz, Thomas Look, Matthias Begemann, Martin Zenke, and Ivan G. Costa. “Identification of Transcription Factor Binding Sites Using ATAC-Seq.” Genome Biology, (December 2019). https://doi.org/10.1186/s13059-019-1642-2
@@ -424,6 +429,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Ou, Jianhong, Haibo Liu, Jun Yu, Michelle A. Kelliher, Lucio H. Castilla, Nathan D. Lawson, and Lihua Julie Zhu. “ATACseqQC: A Bioconductor Package for Post-Alignment Quality Assessment of ATAC-Seq Data.” BMC Genomics 19, no. 1 (December 2018): 169. https://doi.org/10.1186/s12864-018-4559-3.
 </details>
 
+- [atac_chip_preprocess](https://github.com/ATpoint/atac_chip_preprocess) - Preprocessing workflow for ATAC-seq and ChIP-seq data, Nextflow pipeline.
+
 - ATAC-seq peak calling using MACS2: `macs2 callpeak --nomodel --nolambda -- keep-dup all --call-summits -f BAMPE -g hs`
 
 - [ATACProc](https://github.com/ay-lab/ATACProc) - ATAC-seq processing pipeline
@@ -431,11 +438,6 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - [atacseq](https://github.com/nf-core/atacseq) - nf-core ATAC-seq peak-calling and differential analysis pipeline.
 
 - [pepatac](https://github.com/databio/pepatac) - A modular, containerized pipeline for ATAC-seq data processing. [Examples and documentation](http://code.databio.org/PEPATAC/)
-
-- [TOBIAS](https://github.com/loosolab/TOBIAS) (Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal) - transcription factor footprinting framework for ATAC-seq data. Corrects for Tn5 bias (ATACorrect module, Figure 1). Outperforms HINT-ATAC, PIQ, Wellington, similar or better performance as msCentipede. Validated using paired ATAC-seq and ChIP-seq data. Visualization of aggregated ATAC-seq signals, differential and time course analysis, TF clustering, network building. Input - BAM file, genome FASTA, BED peaks. Output - bigWigs of uncorrected, corrected signals, expected and corrected symbols. <details>
-    <summary>Paper</summary>
-    Bentsen, Mette, Philipp Goymann, Hendrik Schultheis, Kathrin Klee, Anastasiia Petrova, René Wiegandt, Annika Fust, et al. “ATAC-Seq Footprinting Unravels Kinetics of Transcription Factor Binding during Zygotic Genome Activation.” Nature Communications 11, no. 1 (August 26, 2020): 4267. https://doi.org/10.1038/s41467-020-18035-1.
-</details> 
 
 ## Histone-seq
 
