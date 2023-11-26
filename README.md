@@ -95,6 +95,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Kolmykov, Semyon, Ivan Yevshin, Mikhail Kulyashov, Ruslan Sharipov, Yury Kondrakhin, Vsevolod J Makeev, Ivan V Kulakovskiy, Alexander Kel, and Fedor Kolpakov. “GTRD: An Integrated View of Transcription Regulation.” Nucleic Acids Research 49, no. D1 (January 8, 2021): D104–11. https://doi.org/10.1093/nar/gkaa1057.
 </details>
 
+- [Cistrome DB v3.0](http://db3.cistrome.org/browser) - a resource of ChIP-seq, A T AC-seq and DNase-seq data from humans and mice. One-page interface to search by target gene and cell type, by gneomic region, find similar BED sets for the uploaded BED. <details>
+    <summary>Paper</summary>
+    Taing, Len, Ariaki Dandawate, Sehi L’Yi, Nils Gehlenborg, Myles Brown, and Clifford A Meyer. “Cistrome Data Browser: Integrated Search, Analysis and Visualization of Chromatin Data.” Nucleic Acids Research, November 16, 2023, gkad1069. https://doi.org/10.1093/nar/gkad1069.
+</details>
+
 - [Cistrome DB](http://cistrome.org/db/#/) - ChIP-seq peaks for TFs, histone modifications, DNAse/ATAC. Downloadable cell type-specific, hg38 BED files. [Toolkit](http://dbtoolkit.cistrome.org/) to answer questions like "What factors regulate your gene of interest?", "What factors bind in your interval?", "What factors have a significant binding overlap with your peak set?" <details>
     <summary>Paper</summary>
     Zheng R, Wan C, Mei S, Qin Q, Wu Q, Sun H, Chen CH, Brown M, Zhang X, Meyer CA, Liu XS. Cistrome Data Browser: expanded datasets and new tools for gene regulatory analysis. Nucleic Acids Res, 2018 Nov 20. https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1094/5193328
