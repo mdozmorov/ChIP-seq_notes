@@ -135,6 +135,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     Pachkov, Mikhail, Piotr J. Balwierz, Phil Arnold, Evgeniy Ozonov, and Erik van Nimwegen. “SwissRegulon, a Database of Genome-Wide Annotations of Regulatory Sites: Recent Updates.” Nucleic Acids Research 41, no. D1 (November 23, 2012): D214–20. https://doi.org/10.1093/nar/gks1145.
 </details>
 
+- [tangermeme](https://github.com/jmschrei/tangermeme) - Python interface to the MEME suite
+
 ## ChIP-seq
 
 - [ChIP-seq-analysis](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq analysis notes from Ming Tang
