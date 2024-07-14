@@ -336,6 +336,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Interpretation
 
+- [Lisa](http://lisa.cistrome.org/) - web server to determine the transcription factors and chromatin regulators that are directly responsible for the perturbation of a differentially expressed gene set (chrom-PR score). Using public and custom human and mouse DNase-seq, and H3K27ac ChIP-seq profiles (CistromeDB). Input: list of differential genes. [GitHub](https://github.com/AllenWLynch/lisa). <details>
+    <summary>Paper</summary>
+    Qin, Qian, Jingyu Fan, Rongbin Zheng, Changxin Wan, Shenglin Mei, Qiu Wu, Hanfei Sun, et al. “Lisa: Inferring Transcriptional Regulators through Integrative Modeling of Public Chromatin Accessibility and ChIP-Seq Data.” Genome Biology 21, no. 1 (December 2020): 32. https://doi.org/10.1186/s13059-020-1934-6.
+</details>
+
 - [Cistrome-GO](http://go.cistrome.org/) - functional enrichment analysis of genes regulated by TFs in human and mouse. Solo mode (ChIP-seq peaks only) or ensemble mode (integrates ChIP-seq peaks and RNA-seq differentially expressed genes). Implementation of BETA method. MACS2 peaks, DESeq2 output. Gene-centric regulatory potential (RP) score (exponentially weighted by distance sum of peaks). Human (hg19/hg38), Mouse (mm9/mm10). <details>
     <summary>Paper</summary>
     Li, Shaojuan, Changxin Wan, Rongbin Zheng, Jingyu Fan, Xin Dong, Clifford A. Meyer, and X. Shirley Liu. “Cistrome-GO: A Web Server for Functional Enrichment Analysis of Transcription Factor ChIP-Seq Peaks.” Nucleic Acids Research 47, no. W1 (July 2, 2019): W206–11. https://doi.org/10.1093/nar/gkz332.
