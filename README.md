@@ -209,6 +209,11 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ### Peaks
 
+- Benchmarking of 14 ChIP-seq tools for peak calling and differential analysis (described in [supplementary](https://academic.oup.com/bib/article/17/6/953/2453197#47712124)). Experimental and simulated data, narrow and broad peaks, with/without input, replicates. DEG enrichment analysis. Poor agreement. MACS2 performs OK for sharp peaks. [Figure 7](https://academic.oup.com/view-large/figure/47712115/bbv110f7p.tif) - decision tree for tool selection. <details>
+    <summary>Paper</summary>
+    Steinhauser, Sebastian, Nils Kurzawa, Roland Eils, and Carl Herrmann. “A Comprehensive Comparison of Tools for Differential ChIP-Seq Analysis,” n.d., 14.
+</details>
+
 - [LanceOtron](https://github.com/LHentges/LanceOtron) - deep learning-based peak caller from TF and histone ChIP-seq, ATAC-seq, DNAse-seq. Input - bigWig coverage file (+input, if available). Image recognition using wide and deep model (logistic regression producing enrichment scores, CNN, multilayer perceptron, Fig. 1c, Methods). Trained on hand-labeled data. Outperforms MACS2. Visualization using [MLV genome visualization](https://github.com/Hughes-Genome-Group/mlv) software. [Website](https://lanceotron.molbiol.ox.ac.uk/) with videos, documentation. <details>
     <summary>Paper</summary>
     Hentges, Lance D., Martin J. Sergeant, Damien J. Downes, Jim R. Hughes, and Stephen Taylor. "LanceOtron: a deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq." bioRxiv (2021). https://doi.org/10.1101/2021.01.25.428108
