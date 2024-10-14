@@ -231,6 +231,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - `triform` - finds enriched regions (peaks) in transcription factor ChIP-sequencing data. https://bioconductor.org/packages/release/bioc/html/triform.html
 
+- [Enriched Domain Detector (EDD)](https://github.com/CollasLab/edd) - a ChIP-seq peak caller for detection of megabase domains of enrichment.
+
 ### Enhancers
 
 - [ROSE](https://bitbucket.org/young_computation/rose) - rank-ordering of super-enhancers using H3K27ac ChIP-seq data, by the Young lab.
