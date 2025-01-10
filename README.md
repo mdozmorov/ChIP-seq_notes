@@ -408,6 +408,32 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 - [Benchmarking ATAC-seq peak calling](https://bigmonty12.github.io/peak-calling-benchmark) by Austin Montgomery
 
+- [ATACdb](http://www.licpathway.net/ATACdb) - human chromatin accessibility data, uniformly processed from GEO. Provides (epi)genetic annotations, typical and super-enhancers, transcription factors (TFs), single-nucleotide polymorphisms (SNPs), risk SNPs, eQTLs, LD SNPs, methylations, chromatin interactions and TADs. Inference of TF footprints within chromatin accessibility regions. <details>
+    <summary>Paper</summary>
+    Wang, Fan, Xuefeng Bai, Yuezhu Wang, Yong Jiang, Bo Ai, Yong Zhang, Yuejuan Liu, et al. “ATACdb: A Comprehensive Human Chromatin Accessibility Database,” Nucleic Acids Res. 2020 Oct 30;49(D1):D55–D64. https://doi.org/10.1093/nar/gkaa943
+
+    # Accessible chromatin region:  bed  
+    wget http://www.licpathway.net/ATACdb/download/packages/Accessible_chromatin_region_all.bed  
+
+    # TF footprint: txt  
+    wget http://www.licpathway.net/ATACdb/download/packages/TF_footprint_package.txt  
+
+    # Associated gene:  txt  
+    wget http://www.licpathway.net/ATACdb/download/packages/Associated_gene_package.txt
+
+    # Super-enhancer: bed     csv  
+    wget http://www.licpathway.net/sedb/download/package/SE_package.bed  
+    wget http://www.licpathway.net/sedb/download/package/SE_package.csv  
+
+    # Typical enhancer: bed     csv  
+    wget http://www.licpathway.net/sedb/download/package/TE_package.bed  
+    wget http://www.licpathway.net/sedb/download/package/TE_package.csv  
+
+    # eQTL: bed     csv  
+    wget http://www.licpathway.net/ATACdb/download/packages/eqtl.txt  
+    wget http://www.licpathway.net/ATACdb/download/packages/eqtl.csv  
+</details>
+
 - ATAC-seq analysis considerations. Considering multiple workflows, settling on csaw-based. Normalization by library complexity (downsampling) is important. [Workflow](https://github.com/reskejak/ATAC-seq/blob/master/ATACseq_workflow.txt) and [GitHub](https://github.com/reskejak/ATAC-seq) with all scripts. <details>
     <summary>Paper</summary>
     Reske, Jake J., Mike R. Wilson, and Ronald L. Chandler. “ATAC-Seq Normalization Method Can Significantly Affect Differential Accessibility Analysis and Interpretation.” Epigenetics & Chromatin 13, no. 1 (December 2020): 22. https://doi.org/10.1186/s13072-020-00342-y.
