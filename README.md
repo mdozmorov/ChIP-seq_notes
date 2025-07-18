@@ -540,6 +540,9 @@ Homer program ‘findPeaks’ with the style ‘histone’. Peaks within 1 kb we
 
 ## Misc
 
+- Instead of using ENCODE pre-processed p-value or fold-change signal bigWigs, which can obscure base-resolution information, we ingested the raw alignment (BAM) files for individual replicates. These BAM files were converted to base-resolution count bigWig files using the reads_to_bigwig.py script (from the ChromBPNet repository, https://github.com/kundajelab/chrombpnet/blob/master/chrombpnet/helpers/preprocessing/reads_to_bigwig.py), with default parameters. [Source](https://doi.org/10.1101/2025.06.25.661532)
+
+
 - `covtobed` - a tool to generate BED coverage tracks from BAM files. https://github.com/telatin/covtobed
 
 - [UCSC Genome Browser API](http://genome.ucsc.edu/goldenPath/help/api.html) to retrieve DNA sequence from coordinates. 
