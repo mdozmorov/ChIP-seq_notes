@@ -409,6 +409,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 
 ## ATAC-seq
 
+- [cPeaks](https://github.com/MengQiuchen/cPeaks) - Consensus peaks of chromatin accessibility in the human genome from bulk and scATAC-seq datasets. hg18 and hg38. 
+
 - [awesome-atac-analysis](https://github.com/databio/awesome-atac-analysis) Awesome ATAC-seq analysis by Nathan Sheffield.
 
 - [Benchmarking ATAC-seq peak calling](https://bigmonty12.github.io/peak-calling-benchmark) by Austin Montgomery
