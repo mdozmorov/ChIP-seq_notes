@@ -264,6 +264,8 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
 - `EaSeq` - peak calling (MACS), visualization, and analysis of ChIP-seq experiments. GUI, Windows-based, stand-alone. Figure 1, 3 - range of functionality, compared with other tools. https://easeq.net/downloadeaseq/. Description of tools: http://easeq.net/tools.pdf, Visualization examples: http://easeq.net/plots.pdf, Workflow examples: http://easeq.net/examples.pdf
     - Lerdrup, Mads, Jens Vilstrup Johansen, Shuchi Agrawal-Singh, and Klaus Hansen. “An Interactive Environment for Agile Analysis and Visualization of ChIP-Sequencing Data.” Nature Structural & Molecular Biology 23, no. 4 (April 2016): 349–57. https://doi.org/10.1038/nsmb.3180.
 
+- [intervene](https://github.com/asntech/intervene) - Intervene: a tool for intersection and visualization of multiple genomic region and gene sets. Venn, UpSet, Pairwise. Python. [Shiny app](https://asntech.shinyapps.io/intervene/)
+
 - [pygv](https://github.com/manzt/pygv) - a minimal, scriptable IGV-like genome browser for python
 
 - `Zerone` - combine multiple ChIP-seq profiles into one discretized profile. HMM with zero-inflated negative multinomial emissions across windowed genome. QC using SVM trained on ENCODE data to distinguish good from bad samples. Requires two negative controls. Compared against peaks called by MACS, BayesPeak, JAMM. https://github.com/nanakiksc/zerone
@@ -419,24 +421,24 @@ ChIP-seq, ATAC-seq related tools and genomics data analysis resources. Please, [
     <summary>Paper</summary>
     Wang, Fan, Xuefeng Bai, Yuezhu Wang, Yong Jiang, Bo Ai, Yong Zhang, Yuejuan Liu, et al. “ATACdb: A Comprehensive Human Chromatin Accessibility Database,” Nucleic Acids Res. 2020 Oct 30;49(D1):D55–D64. https://doi.org/10.1093/nar/gkaa943
 
-    # Accessible chromatin region:  bed  
+    # Accessible chromatin region:  bed
     wget http://www.licpathway.net/ATACdb/download/packages/Accessible_chromatin_region_all.bed  
 
-    # TF footprint: txt  
+    # TF footprint: txt
     wget http://www.licpathway.net/ATACdb/download/packages/TF_footprint_package.txt  
 
-    # Associated gene:  txt  
+    # Associated gene:  txt
     wget http://www.licpathway.net/ATACdb/download/packages/Associated_gene_package.txt
 
-    # Super-enhancer: bed     csv  
+    # Super-enhancer: bed     csv
     wget http://www.licpathway.net/sedb/download/package/SE_package.bed  
     wget http://www.licpathway.net/sedb/download/package/SE_package.csv  
 
-    # Typical enhancer: bed     csv  
+    # Typical enhancer: bed     csv
     wget http://www.licpathway.net/sedb/download/package/TE_package.bed  
     wget http://www.licpathway.net/sedb/download/package/TE_package.csv  
 
-    # eQTL: bed     csv  
+    # eQTL: bed     csv
     wget http://www.licpathway.net/ATACdb/download/packages/eqtl.txt  
     wget http://www.licpathway.net/ATACdb/download/packages/eqtl.csv  
 </details>
